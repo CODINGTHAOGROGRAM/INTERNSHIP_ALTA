@@ -25,9 +25,9 @@ D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\staticweba
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LMS _Elibrary_BE.props
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\staticwebassets.pack.json
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\scopedcss\bundle\LMS _Elibrary_BE.styles.css
-D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\LMS _Elibrary_BE.csproj.CopyComplete
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\LMS _Elibrary_BE.dll
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\refint\LMS _Elibrary_BE.dll
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\LMS _Elibrary_BE.pdb
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\LMS _Elibrary_BE.genruntimeconfig.cache
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\ref\LMS _Elibrary_BE.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net8.0\LMS _Eli.3A427AA5.Up2Date
