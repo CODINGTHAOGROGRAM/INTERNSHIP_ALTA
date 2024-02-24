@@ -1,0 +1,85 @@
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\appsettings.Development.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\appsettings.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\LMS _Elibrary_BE.exe
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\LMS _Elibrary_BE.deps.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\LMS _Elibrary_BE.runtimeconfig.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\LMS _Elibrary_BE.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\LMS _Elibrary_BE.pdb
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\AutoMapper.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Castle.Core.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Humanizer.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Scrutor.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.csproj.AssemblyReference.cache
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.AssemblyInfoInputs.cache
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.AssemblyInfo.cs
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.csproj.CoreCompileInputs.cache
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.MvcApplicationPartsAssemblyInfo.cs
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.MvcApplicationPartsAssemblyInfo.cache
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.sourcelink.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets.build.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets.development.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets\msbuild.LMS _Elibrary_BE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets\msbuild.build.LMS _Elibrary_BE.props
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LMS _Elibrary_BE.props
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LMS _Elibrary_BE.props
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\staticwebassets.pack.json
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\scopedcss\bundle\LMS _Elibrary_BE.styles.css
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Eli.3A427AA5.Up2Date
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\refint\LMS _Elibrary_BE.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.pdb
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.genruntimeconfig.cache
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\ref\LMS _Elibrary_BE.dll

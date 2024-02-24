@@ -5,8 +5,8 @@ namespace LMS__Elibrary_BE.Enums
     public enum Languages
     {
         [Display(Name = "Tiếng việt")]
-        viet = 1,
+        vn = 1,
         [Display(Name = "Tiếng Anh")]
-        eng = 2
+        El = 2
     }
 }
