@@ -51,6 +51,10 @@ namespace LMS_Library_API.Models
 
         [AllowNull]
         public string Avartar { get; set; }
+
+        [NotMapped]
+        public IFormFile? ImageFile { get; set; }
+
         public string Password { get; set; }
 
         [DefaultValue(false)]

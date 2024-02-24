@@ -1,5 +1,6 @@
 
 using LMS__Elibrary_BE.Context;
+using LMS__Elibrary_BE.Services.RoleServices;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
@@ -23,6 +24,8 @@ namespace LMS__Elibrary_BE
 
             builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connectString));
 
+            builder.Services.AddScoped<IRoleService, RoleService>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -33,12 +36,7 @@ namespace LMS__Elibrary_BE
             }
             var supportedCultures = new[] { new CultureInfo("en-US") };
 
-            //app.UseRequestLocalization(new RequestLocalizationOptions
-            //{
-            //    DefaultRequestCulture = new RequestCulture("en-US"),
-            //    SupportedCultures = supportedCultures,
-            //    SupportedUICultures = supportedCultures
-            //});
+           
 
             app.UseHttpsRedirection();
 
