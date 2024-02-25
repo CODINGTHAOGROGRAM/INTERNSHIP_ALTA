@@ -29,4 +29,10 @@
 		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Services\FilePrivateServices\" />
+	  <Folder Include="Services\AuthServices\" />
+	  <Folder Include="Services\SubjectServices\" />
+	</ItemGroup>
+
 </Project>

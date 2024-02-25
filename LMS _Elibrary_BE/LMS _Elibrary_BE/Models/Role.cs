@@ -4,8 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using LMS_Library_API.Models.Notification;
 using System.Text.Json.Serialization;
+using LMS_Library_API.Models;
 
-namespace LMS_Library_API.Models.RoleAccess
+namespace LMS__Elibrary_BE.Models
 {
     public class Role
     {
@@ -26,7 +27,6 @@ namespace LMS_Library_API.Models.RoleAccess
         [JsonIgnore]
         public virtual ICollection<User> Users { get; set; }
 
-        [InverseProperty("Role")]
-        public virtual ICollection<Role_Permissions>? Role_Permissions { get; set; }
+        
     }
 }

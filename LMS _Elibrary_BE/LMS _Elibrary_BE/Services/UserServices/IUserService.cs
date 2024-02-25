@@ -1,4 +1,5 @@
-﻿using LMS_Library_API.Models;
+﻿using LMS__Elibrary_BE.ViewModels;
+using LMS_Library_API.Models;
 
 namespace LMS__Elibrary_BE.Services.UserServices
 {
@@ -8,5 +9,8 @@ namespace LMS__Elibrary_BE.Services.UserServices
         Task<User> GetById(string userID);
         Task<string> AddNew(User user);
         Task<string> Update(User user); 
+        Task DeleteById(string userID);
+        Task<int?> ChangePassword(ChangePassword changePassword);
+        Task<int> ForgotPassword(string newPassword, string empEmail);
     }
 }

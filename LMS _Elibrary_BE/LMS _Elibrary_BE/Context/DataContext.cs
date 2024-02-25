@@ -3,11 +3,11 @@ using LMS_Library_API.Models.AboutSubject;
 using LMS_Library_API.Models.AboutUser;
 using LMS_Library_API.Models.Exams;
 using LMS_Library_API.Models.Notification;
-using LMS_Library_API.Models.RoleAccess;
 using LMS_Library_API.Models.StudentNotification;
 using LMS_Library_API.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using LMS__Elibrary_BE.Models;
 
 namespace LMS__Elibrary_BE.Context
 {
@@ -23,9 +23,7 @@ namespace LMS__Elibrary_BE.Context
         public DbSet<Help> Helps { get; set; }
         public DbSet<PrivateFile> PrivateFiles { get; set; }
         public DbSet<ExamRecentViews> ExamRecentViews { get; set; }
-        public DbSet<Permissions> Permissions { get; set; }
         public DbSet<Role> Role { get; set; }
-        public DbSet<Role_Permissions> Role_Permissions { get; set; }
         public DbSet<Exam> Exams { get; set; }
         public DbSet<QuestionBanks> QuestionBanks { get; set; }
         public DbSet<QB_Answer_Essay> QB_Answers_Essay { get; set; }
@@ -68,9 +66,7 @@ namespace LMS__Elibrary_BE.Context
             modelBuilder.Entity<Help>().ToTable("Help");
             modelBuilder.Entity<PrivateFile>().ToTable("PrivateFile");
             modelBuilder.Entity<ExamRecentViews>().ToTable("ExamRecentViews");
-            modelBuilder.Entity<Permissions>().ToTable("Permissions");
             modelBuilder.Entity<Role>().ToTable("Role");
-            modelBuilder.Entity<Role_Permissions>().ToTable("Role_Permissions");
             modelBuilder.Entity<Exam>().ToTable("Exam");
             modelBuilder.Entity<QuestionBanks>().ToTable("QuestionBanks");
             modelBuilder.Entity<QB_Answer_Essay>().ToTable("QB_Answer_Essay");
@@ -103,9 +99,6 @@ namespace LMS__Elibrary_BE.Context
 
             modelBuilder.Entity<NotificationSetting>()
             .HasKey(ns => new { ns.UserId, ns.FeaturesId });
-
-            modelBuilder.Entity<Role_Permissions>()
-            .HasKey(rp => new { rp.RoleId, rp.PermissionsId });
 
             modelBuilder.Entity<Question_Exam>()
             .HasKey(qe => new { qe.ExamId, qe.QuestionId });

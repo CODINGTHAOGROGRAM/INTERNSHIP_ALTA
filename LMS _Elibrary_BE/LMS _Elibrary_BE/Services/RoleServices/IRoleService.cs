@@ -1,4 +1,4 @@
-﻿using LMS_Library_API.Models.RoleAccess;
+﻿using LMS__Elibrary_BE.Models;
 
 namespace LMS__Elibrary_BE.Services.RoleServices
 {

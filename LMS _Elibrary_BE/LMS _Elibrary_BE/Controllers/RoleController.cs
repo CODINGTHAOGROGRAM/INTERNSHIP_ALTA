@@ -1,5 +1,5 @@
-﻿using LMS__Elibrary_BE.Services.RoleServices;
-using LMS_Library_API.Models.RoleAccess;
+﻿using LMS__Elibrary_BE.Models;
+using LMS__Elibrary_BE.Services.RoleServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -37,7 +37,7 @@ namespace LMS__Elibrary_BE.Controllers
             try
             {
                 await _roleService.DeleteRole(roleID);
-                return Ok("Role deleted successfully."); // Trả về thông báo thành công
+                return Ok("Xóa thành công"); // Trả về thông báo thành công
             }
             catch (Exception ex)
             {

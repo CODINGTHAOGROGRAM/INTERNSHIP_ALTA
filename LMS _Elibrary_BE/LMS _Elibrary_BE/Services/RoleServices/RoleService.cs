@@ -1,5 +1,5 @@
 ﻿using LMS__Elibrary_BE.Context;
-using LMS_Library_API.Models.RoleAccess;
+using LMS__Elibrary_BE.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LMS__Elibrary_BE.Services.RoleServices
@@ -14,9 +14,18 @@ namespace LMS__Elibrary_BE.Services.RoleServices
         }    
         public async Task<int> AddNew(Role role)
         {
-            _context.Role.Add( role );
-            await _context.SaveChangesAsync();
-            return 0;
+            try
+            {
+                _context.Role.Add(role);
+                await _context.SaveChangesAsync();
+                return 0;
+            }
+            catch(Exception ex) 
+            {
+                return 0;
+            }
+
+           
         }
 
         public async Task DeleteRole(int roleID)

@@ -1,6 +1,8 @@
 
 using LMS__Elibrary_BE.Context;
+using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.Services.RoleServices;
+using LMS__Elibrary_BE.Services.UserServices;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
@@ -25,6 +27,8 @@ namespace LMS__Elibrary_BE
             builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connectString));
 
             builder.Services.AddScoped<IRoleService, RoleService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IUpLoadFileHelper, UpLoadFileHelper>();
 
             var app = builder.Build();
 
