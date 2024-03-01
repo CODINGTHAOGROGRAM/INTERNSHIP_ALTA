@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a9CDz+7BEcntP+YTab7FfzuZ5PZ6Uk4kUx2IFqpycqnWe8V5Qn+Y5CYDxE+id0mptZLX0BBPwKtUTNUsEtxHFw==",
+  "dgSpecHash": "m1f8L+AUUUIf7U3r801GHryLOmmQg6BjFpKm+H+wqQ+Tu0s3Xi2N2h/lGOsIQ9Ni1D65RjqaAeYhy5sJK27VQg==",
   "success": true,
   "projectFilePath": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\do272\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\do272\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\do272\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
+    "C:\\Users\\do272\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\do272\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\do272\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\do272\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

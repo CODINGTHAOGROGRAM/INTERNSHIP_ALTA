@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "role",
-        "Type": "LMS_Library_API.Models.RoleAccess.Role",
+        "Name": "newRole",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.RoleDTO",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "role",
-        "Type": "LMS_Library_API.Models.RoleAccess.Role",
+        "Type": "LMS__Elibrary_BE.Models.Role",
         "IsRequired": true
       }
     ],

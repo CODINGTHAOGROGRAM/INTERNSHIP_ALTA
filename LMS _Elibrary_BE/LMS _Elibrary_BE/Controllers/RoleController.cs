@@ -1,4 +1,6 @@
-﻿using LMS__Elibrary_BE.Models;
+﻿using AutoMapper;
+using LMS__Elibrary_BE.Models;
+using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.RoleServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,18 +12,20 @@ namespace LMS__Elibrary_BE.Controllers
     public class RoleController : ControllerBase
     {
         private readonly IRoleService _roleService;
-
-        public RoleController(IRoleService roleService)
+        private readonly IMapper _mapper;
+        public RoleController(IRoleService roleService, IMapper mapper)
         {
             _roleService = roleService;
+            _mapper = mapper;
         }
 
 
         [HttpPost]
-        public async Task<IActionResult> AddNewRole(Role role)
+        public async Task<IActionResult> AddNewRole(RoleDTO newRole)
         {
             try
             {
+                var role = _mapper.Map<Role>(newRole);
                 int result = await _roleService.AddNew(role);
                 return Ok(result); // Trả về ID của vai trò mới được thêm vào thành công
             }

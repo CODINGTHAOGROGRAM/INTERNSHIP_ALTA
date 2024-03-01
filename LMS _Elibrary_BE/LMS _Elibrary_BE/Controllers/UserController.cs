@@ -1,4 +1,6 @@
-﻿using LMS__Elibrary_BE.Helpers;
+﻿using AutoMapper;
+using LMS__Elibrary_BE.Helpers;
+using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.UserServices;
 using LMS_Library_API.Models;
 using Microsoft.AspNetCore.Http;
@@ -12,17 +14,20 @@ namespace LMS__Elibrary_BE.Controllers
     {
         private readonly IUserService _userService;
         private readonly IUpLoadFileHelper _upLoadFileHelper;
-        public UserController(IUserService userService, IUpLoadFileHelper upLoadFileHelper)
+        private readonly IMapper _mapper;
+        public UserController(IUserService userService, IUpLoadFileHelper upLoadFileHelper, IMapper mapper)
         {
             _userService = userService;
             _upLoadFileHelper = upLoadFileHelper;
+            _mapper = mapper;
         }
 
         [HttpPost("Add")]
-        public async Task<IActionResult> AddNewUser([FromBody] User user)
+        public async Task<IActionResult> AddNewUser([FromBody] UserDTO newUser)
         {
             try
             {
+                var user = _mapper.Map<User>(newUser);
                 var result = await _userService.AddNew(user);
                 return Ok(result); // Trả về HTTP status code 200 OK và thông điệp thành công
             }

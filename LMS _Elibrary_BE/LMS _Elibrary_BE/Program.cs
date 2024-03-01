@@ -1,4 +1,5 @@
 
+using AutoMapper;
 using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.Services.RoleServices;
@@ -21,7 +22,7 @@ namespace LMS__Elibrary_BE
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddAutoMapper(typeof(Program).Assembly);
             var connectString = builder.Configuration.GetConnectionString("DefaultConnection");
 
             builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connectString));
