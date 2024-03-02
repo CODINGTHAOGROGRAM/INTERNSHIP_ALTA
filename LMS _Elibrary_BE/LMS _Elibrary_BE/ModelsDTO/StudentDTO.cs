@@ -5,9 +5,8 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace LMS__Elibrary_BE.ModelsDTO
 {
-    public class UserDTO
+    public class StudentDTO
     {
-
         [Column(TypeName = "nvarchar(50)")]
         [StringLength(50, ErrorMessage = "Vượt quá độ dài cho phép")]
         [Required(ErrorMessage = "Hãy nhập tên người dùng")]
@@ -20,7 +19,7 @@ namespace LMS__Elibrary_BE.ModelsDTO
             ErrorMessage = "Email không hợp lệ !")]
         public string Email { get; set; }
 
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         [Required(ErrorMessage = "Hãy nhập ngày sinh người dùng")]
         public DateTime DateOfBirth { get; set; }
 
@@ -41,10 +40,7 @@ namespace LMS__Elibrary_BE.ModelsDTO
 
         [AllowNull]
         public string Avartar { get; set; }
-
-        [NotMapped]
-        public IFormFile? ImageFile { get; set; }
-
         public string Password { get; set; }
+
     }
 }

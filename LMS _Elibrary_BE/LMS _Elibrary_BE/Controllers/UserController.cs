@@ -65,10 +65,11 @@ namespace LMS__Elibrary_BE.Controllers
         }
 
         [HttpPut("Update")]
-        public async Task<IActionResult> UpdateUser([FromBody] User user)
+        public async Task<IActionResult> UpdateUser([FromBody] UserDTO UpdateUser)
         {
             try
             {
+                var user = _mapper.Map<User>(UpdateUser);
                 var usr = await _userService.Update(user);
                 return Ok(usr); // Trả về đối tượng cần update
             }

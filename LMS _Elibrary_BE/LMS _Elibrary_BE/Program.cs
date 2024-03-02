@@ -2,6 +2,8 @@
 using AutoMapper;
 using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
+using LMS__Elibrary_BE.Services.ClassServices;
+using LMS__Elibrary_BE.Services.FilePrivateServices;
 using LMS__Elibrary_BE.Services.RoleServices;
 using LMS__Elibrary_BE.Services.UserServices;
 using Microsoft.AspNetCore.Localization;
@@ -30,6 +32,9 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IRoleService, RoleService>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IUpLoadFileHelper, UpLoadFileHelper>();
+            builder.Services.AddScoped<IFilePrivateService, FilePrivateService>();
+            builder.Services.AddScoped<IClassService, ClassService>();
+
 
             var app = builder.Build();
 

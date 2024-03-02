@@ -20,7 +20,7 @@ namespace LMS__Elibrary_BE.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("AddRole")]
         public async Task<IActionResult> AddNewRole(RoleDTO newRole)
         {
             try
@@ -35,7 +35,7 @@ namespace LMS__Elibrary_BE.Controllers
             }
         }
 
-        [HttpDelete("{roleID}")]
+        [HttpDelete("DeleteRole/{roleID}")]
         public async Task<IActionResult> DeleteRole(int roleID)
         {
             try
@@ -77,7 +77,7 @@ namespace LMS__Elibrary_BE.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut("UpdateRole")]
         public async Task<IActionResult> UpdateRole(Role role)
         {
             try

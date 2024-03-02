@@ -1,15 +1,184 @@
 [
   {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.RoleController",
-    "Method": "AddNewRole",
-    "RelativePath": "api/Role",
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ClassController",
+    "Method": "GetAllClasses",
+    "RelativePath": "api/Class",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ClassController",
+    "Method": "GetClassById",
+    "RelativePath": "api/Class/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ClassController",
+    "Method": "AddNewClass",
+    "RelativePath": "api/Class/AddClass",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newRole",
-        "Type": "LMS__Elibrary_BE.ModelsDTO.RoleDTO",
+        "Name": "newClass",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.ClassDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ClassController",
+    "Method": "DeleteClass",
+    "RelativePath": "api/Class/DeleteClass/{classId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "classId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ClassController",
+    "Method": "UpdateClass",
+    "RelativePath": "api/Class/UpdateFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newClass",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.ClassDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "GetAllFiles",
+    "RelativePath": "api/FilePrivate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "GetFileById",
+    "RelativePath": "api/FilePrivate/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "AddNewFile",
+    "RelativePath": "api/FilePrivate/AddFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newFile",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.FileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "DeleteFile",
+    "RelativePath": "api/FilePrivate/DeleteFile/{fileId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "GetFilesByUserId",
+    "RelativePath": "api/FilePrivate/GetFile/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "SearchByItem",
+    "RelativePath": "api/FilePrivate/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
+    "Method": "UpdateFile",
+    "RelativePath": "api/FilePrivate/UpdateFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileObj",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.FileDTO",
         "IsRequired": true
       }
     ],
@@ -27,15 +196,31 @@
   },
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.RoleController",
-    "Method": "UpdateRole",
-    "RelativePath": "api/Role",
-    "HttpMethod": "PUT",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Role/{roleID}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "role",
-        "Type": "LMS__Elibrary_BE.Models.Role",
+        "Name": "roleID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.RoleController",
+    "Method": "AddNewRole",
+    "RelativePath": "api/Role/AddRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newRole",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.RoleDTO",
         "IsRequired": true
       }
     ],
@@ -44,7 +229,7 @@
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.RoleController",
     "Method": "DeleteRole",
-    "RelativePath": "api/Role/{roleID}",
+    "RelativePath": "api/Role/DeleteRole/{roleID}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -59,15 +244,15 @@
   },
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.RoleController",
-    "Method": "GetRoleById",
-    "RelativePath": "api/Role/{roleID}",
-    "HttpMethod": "GET",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Role/UpdateRole",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "roleID",
-        "Type": "System.Int32",
+        "Name": "role",
+        "Type": "LMS__Elibrary_BE.Models.Role",
         "IsRequired": true
       }
     ],
@@ -108,8 +293,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "LMS_Library_API.Models.User",
+        "Name": "newUser",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.UserDTO",
         "IsRequired": true
       }
     ],
@@ -145,8 +330,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "LMS_Library_API.Models.User",
+        "Name": "UpdateUser",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.UserDTO",
         "IsRequired": true
       }
     ],
