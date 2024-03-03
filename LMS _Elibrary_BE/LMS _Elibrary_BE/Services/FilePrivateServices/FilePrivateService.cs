@@ -83,12 +83,21 @@ namespace LMS__Elibrary_BE.Services.FilePrivateServices
             }
         }
 
-        public async Task<PrivateFile> SearchbyItem(string query)
+        public async Task<IEnumerable<PrivateFile>> SearchbyItem(string searchTerm, string[] searchFields)
         {
             try
             {
-                var file = await _context.PrivateFiles.FirstOrDefaultAsync(f => f.Name.Contains(query) || f.Modifier.Contains(query));
-                return file;
+                if (searchFields == null)
+                {
+                    searchFields = new[] { nameof(PrivateFile.Name) , nameof(PrivateFile.Id), nameof(PrivateFile.Modifier), nameof(PrivateFile.Modifier), nameof(PrivateFile.UserId) }; 
+                }
+                var query = _context.PrivateFiles.AsQueryable();
+                foreach (var field in searchFields)
+                {
+                    query = query.Where(p => EF.Property<string>(p, field).Contains(searchTerm));
+                }
+                var files = await query.ToListAsync();
+                return files;
             }
             catch(Exception ex)
             {

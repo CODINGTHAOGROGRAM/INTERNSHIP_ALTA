@@ -10,7 +10,7 @@ namespace LMS__Elibrary_BE.Services.FilePrivateServices
         Task<string> UpdateFile(PrivateFile file);
         Task<string> DeleteFile(int fileId);
         Task<PrivateFile> GetByUserId (string userId);
-        Task<PrivateFile> SearchbyItem(string query);
+        Task<IEnumerable<PrivateFile>> SearchbyItem(string query, string[] searchFields = null);
 
     }
 }

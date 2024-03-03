@@ -13,17 +13,17 @@ namespace LMS_Library_API.Models.Exams
         [Column(TypeName = "varchar(30)")]
         [Key] public string Id { get; set; }
 
-        [Column(TypeName = "varchar(30)")]
+       
         [Required]
-        public string FileType { get; set; }
+        public TypeFile FileType { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
         [StringLength(100, ErrorMessage = "Vượt quá độ dài cho phép")]
         [Required]
         public string FileName { get; set; }
-        //false: tu luan, true: trac nghiem
+       
         [Required]
-        public bool Format { get; set; }
+        public Format Format { get; set; }
 
         [Required]
         public int Duration { get; set; }
