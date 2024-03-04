@@ -30,7 +30,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\QuestionBankServices\" />
 	  <Folder Include="Services\QvsAServices\" />
 	  <Folder Include="Services\StudentServices\" />
 	</ItemGroup>

@@ -91,10 +91,27 @@ namespace LMS__Elibrary_BE.Services.ExamServices
             
         }
 
-        public Task<IEnumerable<Exam>> SearchExam(string searchTerm, string[] searchFields)
+        public async Task<IEnumerable<Exam>> SearchExam(string searchTerm, string[] searchFields)
         {
-
-            throw new NotImplementedException();
+            try
+            {
+                if(searchFields == null)
+                {
+                    searchFields = new[] { nameof(Exam.Id), nameof(Exam.Format) , nameof(Exam.Duration) , nameof(Exam.TeacherCreatedId) };
+                }
+                var query = _context.Exams.AsQueryable();
+                foreach(var item in searchFields)
+                {
+                    query = query.Where(e => EF.Property<string>(e, item).Contains(searchTerm)) ;
+                }
+                var exams = await query.ToListAsync();
+                return exams;
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Lỗi khi tìm kiếm: " + ex.Message);
+            }
+           
         }
 
         public async Task<string> UpdateExam(Exam exam)

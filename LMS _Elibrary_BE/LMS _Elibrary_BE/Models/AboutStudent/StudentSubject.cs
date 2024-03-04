@@ -17,5 +17,8 @@ namespace LMS_Library_API.Models.AboutStudent
 
         [Required]
         public bool subjectMark { get; set; }
+
+        [Required]
+        public bool IsFavorite { get; set; }
     }
 }

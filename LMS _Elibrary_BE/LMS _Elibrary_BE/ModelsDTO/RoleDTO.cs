@@ -6,6 +6,8 @@ namespace LMS__Elibrary_BE.ModelsDTO
 {
     public class RoleDTO
     {
+        [Key] public int Id { get; set; }
+
         [Column(TypeName = "nvarchar(30)")]
         [MaxLength(30)]
         [Required]

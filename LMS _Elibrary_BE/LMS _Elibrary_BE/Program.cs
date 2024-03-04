@@ -3,7 +3,9 @@ using AutoMapper;
 using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.Services.ClassServices;
+using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
+using LMS__Elibrary_BE.Services.QuestionBankServices;
 using LMS__Elibrary_BE.Services.RoleServices;
 using LMS__Elibrary_BE.Services.UserServices;
 using Microsoft.AspNetCore.Localization;
@@ -34,7 +36,8 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IUpLoadFileHelper, UpLoadFileHelper>();
             builder.Services.AddScoped<IFilePrivateService, FilePrivateService>();
             builder.Services.AddScoped<IClassService, ClassService>();
-
+            builder.Services.AddScoped<IExamService,  ExamService>();
+            builder.Services.AddScoped<IQuestionBankService, QuestionBankService>();
 
             var app = builder.Build();
 

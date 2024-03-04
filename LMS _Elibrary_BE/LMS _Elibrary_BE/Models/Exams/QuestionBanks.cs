@@ -9,7 +9,7 @@ namespace LMS_Library_API.Models.Exams
         [Key] public int Id { get; set; }
 
         [Required]
-        public bool Format { get; set; }
+        public Format Format { get; set; }
 
         [Column(TypeName ="nvarchar")]
         [Required]

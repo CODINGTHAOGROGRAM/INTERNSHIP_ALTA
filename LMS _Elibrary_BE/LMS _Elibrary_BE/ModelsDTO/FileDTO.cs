@@ -6,6 +6,8 @@ namespace LMS__Elibrary_BE.ModelsDTO
 {
     public class FileDTO
     {
+        [Key] public int Id { get; set; }
+
         [Column(TypeName = "nvarchar(150)")]
         [Required]
         public string Name { get; set; }

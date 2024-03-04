@@ -7,6 +7,9 @@ namespace LMS__Elibrary_BE.ModelsDTO
 {
     public class StudentDTO
     {
+        [Key]
+        public Guid Id { get; set; } = new Guid();
+
         [Column(TypeName = "nvarchar(50)")]
         [StringLength(50, ErrorMessage = "Vượt quá độ dài cho phép")]
         [Required(ErrorMessage = "Hãy nhập tên người dùng")]

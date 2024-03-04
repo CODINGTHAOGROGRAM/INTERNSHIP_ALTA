@@ -2,6 +2,7 @@
 using LMS__Elibrary_BE.Models;
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS_Library_API.Models;
+using LMS_Library_API.Models.Exams;
 
 namespace LMS__Elibrary_BE.ATProfile
 {
@@ -21,6 +22,13 @@ namespace LMS__Elibrary_BE.ATProfile
             CreateMap<Class, ClassDTO>();
             CreateMap<ClassDTO, Class>();   
 
+            //Mapping Exam
+            CreateMap<ExamDTO, Exam>();
+            CreateMap<Exam, ExamDTO>();
+            
+            //Mapping QuestionBank
+            CreateMap<QuestionBanks, QuestionBankDTO>();
+            CreateMap<QuestionBankDTO, QuestionBanks>();
         }
 
     }
