@@ -183,19 +183,74 @@ namespace LMS__Elibrary_BE.Services.SubjectServices
             }
         }
 
-        public Task<IEnumerable<Subject>> SearchSubjects(string searchTerm, string[] searchFields)
+        public async Task<IEnumerable<Subject>> SearchSubjects(string searchTerm, string[] searchFields)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if(searchFields == null)
+                {
+                    searchFields = new string[] { nameof(Subject.Name), nameof(Subject.Department),nameof(Subject.Description), nameof(Subject.SubmissionDate)};
+                }
+                var query = _context.Subjects.AsQueryable();
+                foreach (var item in searchFields)
+                {
+                    query = query.Where(p => EF.Property<string>(p, item).Contains(searchTerm));
+                }
+                return await query.ToListAsync();
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi khi tìm kiếm: " + ex.Message, ex);
+            }
         }
 
-        public Task<bool> ToggleFavoriteSubject(string subjectId, string studentId)
+        public async Task<bool> ToggleFavoriteSubject(string subjectId, string studentId)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                // Tìm kiếm bản ghi StudentSubject tương ứng
+                var studentSubject = await _context.StudentSubjects
+                    .FirstOrDefaultAsync(ss => ss.subjectId == subjectId && ss.studentId ==Guid.Parse(studentId));
+
+                if (studentSubject != null)
+                {
+                    // Chuyển đổi trạng thái yêu thích của môn học
+                    studentSubject.IsFavorite = !studentSubject.IsFavorite;
+                    await _context.SaveChangesAsync();
+                    return studentSubject.IsFavorite; // Trả về trạng thái yêu thích mới của môn học
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi khi chuyển đổi trạng thái môn học yêu thích: " + ex.Message);
+            }
         }
 
-        public Task<string> UpdateSubject(Subject subject)
+        public async Task<string> UpdateSubject(Subject subject)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var existingSubject = _context.Subjects.FirstOrDefault(s => s.Id == subject.Id);
+                if (existingSubject == null)
+                {
+                    return ("Không tìm thấy môn học cần sửa chữa");
+                }
+                existingSubject.Name = subject.Name;
+                existingSubject.Description = subject.Description;
+                existingSubject.SubmissionDate = subject.SubmissionDate;
+                await _context.SaveChangesAsync();
+                return ("Thay đổi thành công");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi khi cập nhật : " + ex.Message, ex);
+            }
         }
     }
 }

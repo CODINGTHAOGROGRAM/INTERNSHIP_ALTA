@@ -7,19 +7,23 @@
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\subjectservices\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\subjectservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\subjectservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\questionbankservices\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\questionbankservices\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\questionbankservices\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\questionbankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\subjectservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\subjectservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\controllers\\questionbankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\questionbankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,8 +34,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Subject.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Subject.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Subject.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T04:14:52.497Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +61,14 @@
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
               "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
               "RelativeToolTip": "LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAAwLoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T19:13:42.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ISubjectService.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
@@ -55,16 +76,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T18:03:41.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2024-03-04T18:03:41.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Program.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Program.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAgwCcAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T05:34:50.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T05:34:50.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "QuestionBankController.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
@@ -85,18 +100,17 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:19:22.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T15:19:22.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "QuestionBankService.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QuestionBankServices\\QuestionBankService.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\QuestionBankServices\\QuestionBankService.cs",
               "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QuestionBankServices\\QuestionBankService.cs",
               "RelativeToolTip": "LMS _Elibrary_BE\\Services\\QuestionBankServices\\QuestionBankService.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAcwEMAAABGAAAA",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAkwLUAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T19:15:04.548Z",
               "EditorCaption": ""
