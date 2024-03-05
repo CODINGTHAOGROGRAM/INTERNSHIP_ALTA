@@ -77,7 +77,7 @@ namespace LMS__Elibrary_BE.Controllers
             }
         }
 
-        [HttpDelete("DeleteQuestion")]
+        [HttpDelete("DeleteQuestion/{questionId}")]
         public async Task<IActionResult> DeleteQuestion(int questionId)
         {
             try

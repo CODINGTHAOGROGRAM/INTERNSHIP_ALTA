@@ -7,6 +7,7 @@ using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
 using LMS__Elibrary_BE.Services.QuestionBankServices;
 using LMS__Elibrary_BE.Services.RoleServices;
+using LMS__Elibrary_BE.Services.SubjectServices;
 using LMS__Elibrary_BE.Services.UserServices;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +39,7 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IClassService, ClassService>();
             builder.Services.AddScoped<IExamService,  ExamService>();
             builder.Services.AddScoped<IQuestionBankService, QuestionBankService>();
+            builder.Services.AddScoped<ISubjectService, SubjectService>();
 
             var app = builder.Build();
 

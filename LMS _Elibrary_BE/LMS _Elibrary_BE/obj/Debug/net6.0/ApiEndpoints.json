@@ -107,7 +107,7 @@
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.ExamController",
     "Method": "DeleteExam",
-    "RelativePath": "api/Exam/DeleteExam",
+    "RelativePath": "api/Exam/DeleteExam/{examId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -115,7 +115,7 @@
       {
         "Name": "examId",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -324,7 +324,7 @@
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionBankController",
     "Method": "DeleteQuestion",
-    "RelativePath": "api/QuestionBank/DeleteQuestion",
+    "RelativePath": "api/QuestionBank/DeleteQuestion/{questionId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -332,7 +332,7 @@
       {
         "Name": "questionId",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -506,6 +506,201 @@
       {
         "Name": "role",
         "Type": "LMS__Elibrary_BE.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "GetAllSubject",
+    "RelativePath": "api/Subject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "GetSubjectId",
+    "RelativePath": "api/Subject/{subjectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "AddNewSubject",
+    "RelativePath": "api/Subject/AddNewSubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newSubject",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.SubjectDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "AddStudentToSubject",
+    "RelativePath": "api/Subject/AddStudentToSubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "DeleteSubject",
+    "RelativePath": "api/Subject/DeleteSubject/{subjectId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "GetSubjectsByUserId",
+    "RelativePath": "api/Subject/GetSubjects/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "MarkSubjectAsRead",
+    "RelativePath": "api/Subject/mark-as-read/{subjectId}/{studentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "RemoveStudentFromSubject",
+    "RelativePath": "api/Subject/RemoveStuFromSubject/{subjectId}/{StudentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "SearchSubject",
+    "RelativePath": "api/Subject/SearchSubject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchFields",
+        "Type": "System.String[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "ToggleFavoriteSubject",
+    "RelativePath": "api/Subject/toggle-favorite/{subjectId}/{studentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
+    "Method": "UpdateSubject",
+    "RelativePath": "api/Subject/UpdateSubject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectObj",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.SubjectDTO",
         "IsRequired": true
       }
     ],
