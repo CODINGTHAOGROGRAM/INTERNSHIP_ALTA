@@ -29,6 +29,10 @@ namespace LMS__Elibrary_BE.ATProfile
             //Mapping QuestionBank
             CreateMap<QuestionBanks, QuestionBankDTO>();
             CreateMap<QuestionBankDTO, QuestionBanks>();
+
+            //Mapping Student
+            CreateMap<StudentDTO, Student>();
+            CreateMap<StudentDTO, StudentDTO>();
         }
 
     }

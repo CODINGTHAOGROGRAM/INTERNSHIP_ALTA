@@ -60,7 +60,7 @@ namespace LMS__Elibrary_BE.Controllers
             }
         }
         [HttpGet("SearchSubject")]
-        public async Task<IActionResult> SearchSubject(string searchTerm, string[] searchFields = null)
+        public async Task<IActionResult> SearchSubject([FromQuery] string searchTerm, string[] searchFields = null)
         {
             try
             {

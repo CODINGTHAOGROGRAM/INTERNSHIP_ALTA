@@ -24,7 +24,6 @@ namespace LMS_Library_API.Models
         [Required]
         public string Description { get; set; }
 
-
         //navigation property
         [ForeignKey("Department")]
         [Column(TypeName = "varchar(20)")]

@@ -15,7 +15,8 @@ namespace LMS__Elibrary_BE.Services.SubjectServices
         Task<List<Subject>> GetSubjectByUserId(string userId);
         Task<bool> ToggleFavoriteSubject(string subjectId, string studentId);
         Task<bool> MarkSubjectAsRead(string subjectId, string studentId);
-
+        //Task<IEnumerable<Subject>> GetFavoriteSubjects(int studentId);
+        //Task<IEnumerable<Subject>> GetCompletedSubjectsAsync(int studentId);
 
     }
 }

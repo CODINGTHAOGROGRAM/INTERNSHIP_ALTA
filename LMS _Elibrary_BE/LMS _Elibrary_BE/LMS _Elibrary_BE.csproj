@@ -31,7 +31,6 @@
 
 	<ItemGroup>
 	  <Folder Include="Services\QvsAServices\" />
-	  <Folder Include="Services\StudentServices\" />
 	</ItemGroup>
 
 </Project>
