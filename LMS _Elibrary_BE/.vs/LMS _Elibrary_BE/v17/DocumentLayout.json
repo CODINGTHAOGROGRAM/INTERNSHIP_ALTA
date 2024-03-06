@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\classsubjectservices\\classsubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\classsubjectservices\\classsubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\classsubjectservices\\iclasssubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\classsubjectservices\\iclasssubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\subjectservices\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\subjectservices\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\subjectservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\subjectservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\modelsdto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\modelsdto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutstudent\\classsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutstudent\\classsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleDTO.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\ModelsDTO\\RoleDTO.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\ModelsDTO\\RoleDTO.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\ModelsDTO\\RoleDTO.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\ModelsDTO\\RoleDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T19:53:23.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExamController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ExamController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\ExamController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ExamController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\ExamController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAIwEAAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T06:07:02.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\RoleController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCUAAAArAAAA",
+              "Title": "ClassSubject.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutStudent\\ClassSubject.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutStudent\\ClassSubject.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutStudent\\ClassSubject.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutStudent\\ClassSubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T04:57:06.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T04:57:04.57Z",
+              "WhenOpened": "2024-03-06T18:33:19.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SubjectController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwE0AAAAJAAAA",
+              "Title": "IClassSubjectService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\ClassSubjectServices\\IClassSubjectService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\ClassSubjectServices\\IClassSubjectService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\ClassSubjectServices\\IClassSubjectService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\ClassSubjectServices\\IClassSubjectService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T04:57:00.33Z",
+              "WhenOpened": "2024-03-06T18:32:05.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubjectService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\SubjectServices\\SubjectService.cs",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAkwOoAAABAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ClassSubjectService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\ClassSubjectServices\\ClassSubjectService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\ClassSubjectServices\\ClassSubjectService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\ClassSubjectServices\\ClassSubjectService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\ClassSubjectServices\\ClassSubjectService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwEUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T19:13:42.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ISubjectService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\SubjectServices\\ISubjectService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T18:03:41.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Program.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Program.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwCsAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T05:34:50.926Z",
+              "WhenOpened": "2024-03-06T18:31:54.469Z",
               "EditorCaption": ""
             }
           ]
