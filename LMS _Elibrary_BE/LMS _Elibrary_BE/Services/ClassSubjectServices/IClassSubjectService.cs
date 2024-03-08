@@ -14,5 +14,7 @@ namespace LMS__Elibrary_BE.Services.ClassSubjectServices
         Task<string> UpdateClassSubject(string classId, string subjectId, ClassSubject updatedClassSubject);
 
         Task<string> DeleteClassSubject(string classId, string subjectId);
+
+        Task<bool> IsClassSubjectExists(string classId, string subjectId);
     }
 }

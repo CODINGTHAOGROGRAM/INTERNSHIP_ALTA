@@ -3,10 +3,13 @@ using AutoMapper;
 using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.Services.ClassServices;
+using LMS__Elibrary_BE.Services.ClassSubjectServices;
 using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
 using LMS__Elibrary_BE.Services.QuestionBankServices;
+using LMS__Elibrary_BE.Services.QuestionExamServices;
 using LMS__Elibrary_BE.Services.RoleServices;
+using LMS__Elibrary_BE.Services.StudentQvsALikeServices;
 using LMS__Elibrary_BE.Services.StudentServices;
 using LMS__Elibrary_BE.Services.SubjectServices;
 using LMS__Elibrary_BE.Services.UserServices;
@@ -42,6 +45,10 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IQuestionBankService, QuestionBankService>();
             builder.Services.AddScoped<ISubjectService, SubjectService>();
             builder.Services.AddScoped<IStudentService, StudentService>();
+            builder.Services.AddScoped<IClassSubjectService, ClassSubjectService>();
+            builder.Services.AddScoped<IStudentQvsAService,  StudentQvsAService>();
+            builder.Services.AddScoped<IQuestionExamService, QuestionExamService>();
+
 
             var app = builder.Build();
 

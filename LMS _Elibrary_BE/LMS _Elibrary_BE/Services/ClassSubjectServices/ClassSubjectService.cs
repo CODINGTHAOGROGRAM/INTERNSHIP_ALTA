@@ -78,6 +78,25 @@ namespace LMS__Elibrary_BE.Services.ClassSubjectServices
             }
         }
 
+        public async Task<bool> IsClassSubjectExists(string classId, string subjectId)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(classId) || string.IsNullOrEmpty(subjectId))
+                {
+                    throw new ArgumentNullException(nameof(classId) + " or " + nameof(subjectId));
+                }
+
+                return await _context.ClassSubjects
+                    .AnyAsync(cs => cs.classId == classId && cs.subjectId == subjectId);
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Lỗi khi tìm kiếm" + ex.Message, ex);
+            }
+           
+        }
+
         public async Task<string> UpdateClassSubject(string classId, string subjectId, ClassSubject updatedClassSubject)
         {
             if(classId != updatedClassSubject.classId && subjectId != updatedClassSubject.subjectId)
@@ -102,6 +121,7 @@ namespace LMS__Elibrary_BE.Services.ClassSubjectServices
                 throw new Exception("Lỗi khi thay đổi" + ex.Message, ex);
             }
         }
+
 
         //public async Task<IEnumerable<ClassSubject>> GetClassSubjectsByStudentId(string studentId)
         //{

@@ -79,6 +79,121 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.CLassSubjectController",
+    "Method": "GetALlClassSubject",
+    "RelativePath": "api/CLassSubject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.CLassSubjectController",
+    "Method": "DeleteClassSubject",
+    "RelativePath": "api/CLassSubject",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.CLassSubjectController",
+    "Method": "CreateClassSubject",
+    "RelativePath": "api/CLassSubject/AddNewClassSubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classSubject",
+        "Type": "LMS_Library_API.Models.AboutStudent.ClassSubject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.CLassSubjectController",
+    "Method": "IsClassSubjectExists",
+    "RelativePath": "api/CLassSubject/ClassSubject/{classId}/{subjectId}/exists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.CLassSubjectController",
+    "Method": "GetClassSubjectById",
+    "RelativePath": "api/CLassSubject/GetById/{classId}/{subjectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.CLassSubjectController",
+    "Method": "UpdateClassSubject",
+    "RelativePath": "api/CLassSubject/UpdateClassSubject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedClassSubject",
+        "Type": "LMS_Library_API.Models.AboutStudent.ClassSubject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.ExamController",
     "Method": "GetAllExam",
     "RelativePath": "api/Exam",
@@ -99,6 +214,32 @@
       {
         "Name": "newExam",
         "Type": "LMS__Elibrary_BE.ModelsDTO.ExamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamController",
+    "Method": "CreateExamFromQuestionBank",
+    "RelativePath": "api/Exam/create-exam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "questionBank",
+        "Type": "System.Collections.Generic.List\u00601[[LMS_Library_API.Models.Exams.QuestionBanks, LMS _Elibrary_BE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
@@ -612,6 +753,112 @@
       {
         "Name": "student",
         "Type": "LMS__Elibrary_BE.ModelsDTO.StudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudentQvsALikeController",
+    "Method": "GetAnswersLikedByStudent",
+    "RelativePath": "api/StudentQvsALike/Answers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudentQvsALikeController",
+    "Method": "ToggleAnswerLike",
+    "RelativePath": "api/StudentQvsALike/answers/{answerId}/toggle/{studentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "answerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudentQvsALikeController",
+    "Method": "GetStudentsWhoLikedAnswer",
+    "RelativePath": "api/StudentQvsALike/GetStudentLikeAnswer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudentQvsALikeController",
+    "Method": "GetStudentsWhoLikedQuestion",
+    "RelativePath": "api/StudentQvsALike/GetStudentLikeQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudentQvsALikeController",
+    "Method": "GetQuestionsLikedByStudent",
+    "RelativePath": "api/StudentQvsALike/Questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudentQvsALikeController",
+    "Method": "ToggleQuestionLike",
+    "RelativePath": "api/StudentQvsALike/questions/{questionId}/toggle/{studentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

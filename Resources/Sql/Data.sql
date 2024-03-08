@@ -67,6 +67,33 @@ INSERT INTO dbo.ClassSubject (classId, subjectId) VALUES
 ('C003', 'Chemistry101');
 go
 
+
+INSERT INTO dbo.Part (name, dateSubmited, isHidden, numericalOrder, status, note, censorId, teacherCreatedId, subjectId) VALUES
+('Introduction to Algebra', '2024-03-06 08:00:00', 0, 1, 1, 'Introduction to Algebra for beginners', '6F9619FF-8B86-D011-B42D-00C04FC964AA', '6F9619FF-8B86-D011-B42D-00C04FC96422', 'Math101'),
+('Literary Devices Overview', '2024-03-06 09:00:00', 0, 2, 1, 'An overview of literary devices used in literature', '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC', 'English101'),
+('Introduction to Mechanics', '2024-03-06 10:00:00', 0, 3, 1, 'Introduction to Mechanics in Physics', '6F9619FF-8B86-D011-B42D-00C04FC964CC', '6F9619FF-8B86-D011-B42D-00C04FC964DD', 'Physics101'),
+('Cell Biology Basics', '2024-03-06 11:00:00', 0, 4, 1, 'Basic concepts of Cell Biology', '6F9619FF-8B86-D011-B42D-00C04FC964DD', '6F9619FF-8B86-D011-B42D-00C04FC964EE', 'Biology101'),
+('Chemical Bonding Fundamentals', '2024-03-06 12:00:00', 0, 5, 1, 'Fundamental concepts of Chemical Bonding', '6F9619FF-8B86-D011-B42D-00C04FC964EE', '6F9619FF-8B86-D011-B42D-00C04FC964BB', 'Chemistry101'),
+('Advanced Algebra', '2024-03-06 13:00:00', 0, 6, 1, 'Advanced topics in Algebra', '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC', 'Math101'),
+('Literary Analysis Techniques', '2024-03-06 14:00:00', 0, 7, 1, 'Techniques for literary analysis', '6F9619FF-8B86-D011-B42D-00C04FC964CC', '6F9619FF-8B86-D011-B42D-00C04FC964DD', 'English101'),
+('Fundamentals of Thermodynamics', '2024-03-06 15:00:00', 0, 8, 1, 'Basic concepts of Thermodynamics', '6F9619FF-8B86-D011-B42D-00C04FC964DD', '6F9619FF-8B86-D011-B42D-00C04FC964EE', 'Physics101'),
+('Genetic Engineering Overview', '2024-03-06 16:00:00', 0, 9, 1, 'An overview of Genetic Engineering', '6F9619FF-8B86-D011-B42D-00C04FC964EE', '6F9619FF-8B86-D011-B42D-00C04FC964BB', 'Biology101'),
+('Chemical Reactions Overview', '2024-03-06 17:00:00', 0, 10, 1, 'An overview of Chemical Reactions', '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC', 'Chemistry101');
+go
+
+INSERT INTO dbo.Lesson (title, dateSubmited, isHidden, numericalOrder, status, note, partId, censorId, teacherCreatedId) VALUES
+('Introduction to Excel Basics', '2024-03-06 08:00:00', 0, 1, 1, 'Basic introduction to Microsoft Excel', 1, '6F9619FF-8B86-D011-B42D-00C04FC964AA', '6F9619FF-8B86-D011-B42D-00C04FC96422'),
+('Understanding English Grammar', '2024-03-06 09:00:00', 0, 2, 1, 'Comprehensive overview of English grammar rules', 2, '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC'),
+('Fundamentals of Physics', '2024-03-06 10:00:00', 0, 3, 1, 'Introduction to fundamental concepts in physics', 3, '6F9619FF-8B86-D011-B42D-00C04FC964CC', '6F9619FF-8B86-D011-B42D-00C04FC964DD'),
+('Introduction to Biology Concepts', '2024-03-06 11:00:00', 0, 4, 1, 'Basic overview of biology concepts', 4, '6F9619FF-8B86-D011-B42D-00C04FC964DD', '6F9619FF-8B86-D011-B42D-00C04FC964EE'),
+('Chemical Bonds and Atomic Structure', '2024-03-06 12:00:00', 0, 5, 1, 'Understanding chemical bonds and atomic structure', 5, '6F9619FF-8B86-D011-B42D-00C04FC964EE', '6F9619FF-8B86-D011-B42D-00C04FC964BB'),
+('Medieval World History Overview', '2024-03-06 13:00:00', 0, 6, 1, 'Overview of medieval world history', 6, '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC'),
+('Geography of African Regions', '2024-03-06 14:00:00', 0, 7, 1, 'Study on the geography of African regions', 7, '6F9619FF-8B86-D011-B42D-00C04FC964CC', '6F9619FF-8B86-D011-B42D-00C04FC964DD'),
+('Literary Analysis of "Freedom"', '2024-03-06 15:00:00', 0, 8, 1, 'Analyzing the literary work "Freedom"', 8, '6F9619FF-8B86-D011-B42D-00C04FC964DD', '6F9619FF-8B86-D011-B42D-00C04FC964EE'),
+('Basic Python Programming Concepts', '2024-03-06 16:00:00', 0, 9, 1, 'Introduction to basic Python programming concepts', 9, '6F9619FF-8B86-D011-B42D-00C04FC964EE', '6F9619FF-8B86-D011-B42D-00C04FC964BB'),
+('Principles of Economics', '2024-03-06 17:00:00', 0, 10, 1, 'Overview of fundamental principles of economics', 10, '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC');
+go
+
 INSERT INTO dbo.Document (Name, Type, submissionDate, updatedDate, FilePath, status, note, lessonId, censorId, teacherCreatedId) VALUES
 ('Guide on Using Microsoft Excel Tool', 1, '2024-03-06 08:00:00', '2024-03-06 08:00:00', 'path/to/excel_guide.pdf', 1, 'Detailed guide on how to use Excel', 1, '6F9619FF-8B86-D011-B42D-00C04FC964AA', '6F9619FF-8B86-D011-B42D-00C04FC96422'),
 ('Lecture on Basic Grammar Rules', 0, '2024-03-06 09:00:00', '2024-03-06 09:00:00', 'path/to/grammar_rules.pptx', 1, 'Lecture presenting basic grammar rules in English', 2, '6F9619FF-8B86-D011-B42D-00C04FC964BB', '6F9619FF-8B86-D011-B42D-00C04FC964CC'),

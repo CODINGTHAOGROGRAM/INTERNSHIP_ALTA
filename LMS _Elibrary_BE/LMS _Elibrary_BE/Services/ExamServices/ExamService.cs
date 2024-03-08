@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Context;
+using LMS__Elibrary_BE.Enums;
 using LMS_Library_API.Models.Exams;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,8 @@ namespace LMS__Elibrary_BE.Services.ExamServices
             _context = context;
             _mapper = mapper;
         }
+
+
         public async Task<string> AddNewExam(Exam exam)
         {
             try
@@ -26,7 +29,7 @@ namespace LMS__Elibrary_BE.Services.ExamServices
             {
                 throw new Exception("Lỗi khi thêm" + ex.Message, ex);
             }
-            throw new NotImplementedException();
+            
         }
 
         public async Task<string> DeleteExam(string Id)
