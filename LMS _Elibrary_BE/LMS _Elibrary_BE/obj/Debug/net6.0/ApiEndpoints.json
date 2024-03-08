@@ -575,6 +575,22 @@
   },
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "CreateNewExam",
+    "RelativePath": "api/QuestionExam/Create-New-Exam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examCreationRequest",
+        "Type": "LMS__Elibrary_BE.Models.Exams.ExamCreationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
     "Method": "RemoveQuestionFromExam",
     "RelativePath": "api/QuestionExam/delete-question-to-exam",
     "HttpMethod": "DELETE",
@@ -612,6 +628,38 @@
   },
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "GetESAnswersForQuestion",
+    "RelativePath": "api/QuestionExam/Get-ES-Answer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "GetMCAnswersForQuestion",
+    "RelativePath": "api/QuestionExam/Get-MC-Answer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
     "Method": "GetQuestionsForExam",
     "RelativePath": "api/QuestionExam/question-for-exam/{examId}",
     "HttpMethod": "GET",
@@ -622,6 +670,27 @@
         "Name": "examId",
         "Type": "System.String",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "UpdateAnswerContent",
+    "RelativePath": "api/QuestionExam/Update-Answer-Content",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newAnswerContent",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

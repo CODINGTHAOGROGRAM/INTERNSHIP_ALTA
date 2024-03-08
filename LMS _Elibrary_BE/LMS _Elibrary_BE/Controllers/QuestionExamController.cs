@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using LMS__Elibrary_BE.Models.Exams;
 using LMS__Elibrary_BE.Services.QuestionExamServices;
 using Microsoft.AspNetCore.Mvc;
 
@@ -47,6 +48,34 @@ namespace LMS__Elibrary_BE.Controllers
             }
         }
 
+        [HttpGet("Get-MC-Answer")]
+        public async Task<IActionResult> GetMCAnswersForQuestion(int questionId)
+        {
+            try
+            {
+                var answer = await _questionExamService.GetMCAnswersForQuestion(questionId);
+                return Ok(answer);
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("Get-ES-Answer")]
+        public async Task<IActionResult> GetESAnswersForQuestion(int questionId)
+        {
+            try
+            {
+                var answer = await _questionExamService.GetEssayAnswersForQuestion(questionId);
+                return Ok(answer);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost("add-question-to-exam")]
         public async Task<IActionResult> AddQuestionToExam(string examId, int questionId)
         {
@@ -60,6 +89,35 @@ namespace LMS__Elibrary_BE.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPost("Create-New-Exam")]
+        public async Task<IActionResult> CreateNewExam([FromBody] ExamCreationRequest examCreationRequest)
+        {
+            try
+            {
+                var rs = await _questionExamService.CreateNewExamFromQuestionBank(examCreationRequest);
+                return Ok(rs);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("Update-Answer-Content")]
+        public async Task<IActionResult> UpdateAnswerContent(int questionId, string newAnswerContent)
+        {
+            try
+            {
+                var rs = await _questionExamService.UpdateAnswerContent(questionId, newAnswerContent);
+                return Ok(rs);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
 
         [HttpDelete("delete-question-to-exam")]
         public async Task<IActionResult> RemoveQuestionFromExam(string examId, int questionId)

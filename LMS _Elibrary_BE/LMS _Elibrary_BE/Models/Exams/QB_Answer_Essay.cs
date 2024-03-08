@@ -12,6 +12,10 @@ namespace LMS_Library_API.Models.Exams
         [Required]
         public bool SubmitType { get; set; }
 
+        [Column(TypeName = "nvarchar(255)")]
+        [MaxLength(255)]
+        [Required]
+        public string AnswerContent { get; set; }
         [AllowNull]
         public int LimitWord { get; set; }
 
