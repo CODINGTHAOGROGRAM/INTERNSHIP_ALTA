@@ -221,32 +221,6 @@
   },
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.ExamController",
-    "Method": "CreateExamFromQuestionBank",
-    "RelativePath": "api/Exam/create-exam",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "teacherId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "subjectId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "questionBank",
-        "Type": "System.Collections.Generic.List\u00601[[LMS_Library_API.Models.Exams.QuestionBanks, LMS _Elibrary_BE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamController",
     "Method": "DeleteExam",
     "RelativePath": "api/Exam/DeleteExam/{examId}",
     "HttpMethod": "DELETE",
@@ -573,6 +547,80 @@
       {
         "Name": "questionObj",
         "Type": "LMS__Elibrary_BE.ModelsDTO.QuestionBankDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "AddQuestionToExam",
+    "RelativePath": "api/QuestionExam/add-question-to-exam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "RemoveQuestionFromExam",
+    "RelativePath": "api/QuestionExam/delete-question-to-exam",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "GetExamsForQuestion",
+    "RelativePath": "api/QuestionExam/exams-for-question/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QuestionExamController",
+    "Method": "GetQuestionsForExam",
+    "RelativePath": "api/QuestionExam/question-for-exam/{examId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
