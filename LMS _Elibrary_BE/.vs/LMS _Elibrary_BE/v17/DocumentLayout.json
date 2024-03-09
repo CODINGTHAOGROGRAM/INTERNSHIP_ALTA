@@ -3,19 +3,59 @@
   "WorkspaceRootPath": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\departmentservices\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\departmentservices\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\classservices\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\classservices\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\departmentservices\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\departmentservices\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\aboutuser\\teacherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\teacherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\questionexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\questionexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\questionexamservices\\questionexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\questionexamservices\\questionexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\questionexamservices\\questionexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\questionexamservices\\iquestionexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\questionexamservices\\iquestionexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\questionexamservices\\iquestionexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\exams\\questionbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\exams\\questionbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\exams\\questionbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,31 +67,27 @@
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\qnalikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutuser\\teacherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\teacherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutuser\\privatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\aboutuser\\privatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\privatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutuser\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\aboutuser\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutuser\\examrecentviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\aboutuser\\examrecentviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\examrecentviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\exams\\qb_answer_essay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\exams\\qb_answer_essay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\exams\\qb_answer_essay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\exams\\qb_answer_mc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\exams\\qb_answer_mc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\exams\\qb_answer_mc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\exams\\question_exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\exams\\question_exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\exams\\question_exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,11 +98,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Program.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T08:07:47.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:48:26.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAwHAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:48:07.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\ClassServices\\ClassService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\ClassServices\\ClassService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\ClassServices\\ClassService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\ClassServices\\ClassService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:23:21.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DepartmentServices\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\DepartmentServices\\DepartmentService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DepartmentServices\\DepartmentService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\DepartmentServices\\DepartmentService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowF8AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:13:29.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DepartmentServices\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\DepartmentServices\\IDepartmentService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DepartmentServices\\IDepartmentService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\DepartmentServices\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:13:16.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Subject.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Subject.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:08:57.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\User.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\User.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAJkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:08:46.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Department.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Department.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Department.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T06:00:41.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "PrivateFile.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
@@ -91,12 +244,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T20:19:44.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T20:19:44.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "Help.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\Help.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutUser\\Help.cs",
@@ -104,12 +256,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutUser\\Help.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T20:19:43.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T20:19:43.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ExamRecentViews.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\ExamRecentViews.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutUser\\ExamRecentViews.cs",
@@ -117,12 +268,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutUser\\ExamRecentViews.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T20:19:26.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T20:19:26.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Exam.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Exams\\Exam.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Exams\\Exam.cs",
@@ -130,12 +280,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Exams\\Exam.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAswDoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T06:22:08.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T06:22:08.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "QnALikes.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\QnALikes.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutUser\\QnALikes.cs",
@@ -143,25 +292,24 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutUser\\QnALikes.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T04:13:18.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T04:13:18.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "QuestionExamController.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
               "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
               "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAG0AAAAPAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAE4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T20:11:02.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "QuestionExamService.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QuestionExamServices\\QuestionExamService.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\QuestionExamServices\\QuestionExamService.cs",
@@ -169,12 +317,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Services\\QuestionExamServices\\QuestionExamService.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAowCYAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T19:42:22.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T19:42:22.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "QuestionBanks.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Exams\\QuestionBanks.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Exams\\QuestionBanks.cs",
@@ -182,12 +329,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Exams\\QuestionBanks.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAowCAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T19:40:08.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T19:40:08.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "IQuestionExamService.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QuestionExamServices\\IQuestionExamService.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\QuestionExamServices\\IQuestionExamService.cs",
@@ -195,12 +341,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Services\\QuestionExamServices\\IQuestionExamService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAowBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T19:36:09.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T19:36:09.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Question_Exam.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Exams\\Question_Exam.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Exams\\Question_Exam.cs",
@@ -208,12 +353,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Exams\\Question_Exam.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T19:35:48.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T19:35:48.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "QB_Answer_MC.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Exams\\QB_Answer_MC.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Exams\\QB_Answer_MC.cs",
@@ -221,12 +365,11 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Exams\\QB_Answer_MC.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T19:31:36.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T19:31:36.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "QB_Answer_Essay.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Exams\\QB_Answer_Essay.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Exams\\QB_Answer_Essay.cs",
@@ -234,8 +377,7 @@
               "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Exams\\QB_Answer_Essay.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T19:31:36.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T19:31:36.324Z"
             }
           ]
         },

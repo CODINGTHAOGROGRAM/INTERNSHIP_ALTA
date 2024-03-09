@@ -4,6 +4,7 @@ using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.Services.ClassServices;
 using LMS__Elibrary_BE.Services.ClassSubjectServices;
+using LMS__Elibrary_BE.Services.DepartmentServices;
 using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
 using LMS__Elibrary_BE.Services.QuestionBankServices;
@@ -48,6 +49,7 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IClassSubjectService, ClassSubjectService>();
             builder.Services.AddScoped<IStudentQvsAService,  StudentQvsAService>();
             builder.Services.AddScoped<IQuestionExamService, QuestionExamService>();
+            builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
 
             var app = builder.Build();

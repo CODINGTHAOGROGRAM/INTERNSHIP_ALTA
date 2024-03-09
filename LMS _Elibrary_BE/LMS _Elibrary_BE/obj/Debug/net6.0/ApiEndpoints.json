@@ -194,6 +194,117 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/Department",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "CreateDepartment",
+    "RelativePath": "api/Department/Create-Department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDepartment",
+        "Type": "LMS_Library_API.Models.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "GetAllDepartment",
+    "RelativePath": "api/Department/Get-All-Department",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "GetDepartmentById",
+    "RelativePath": "api/Department/Get-Department/{departmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "GetUsersByDepartmentId",
+    "RelativePath": "api/Department/Get-User-By-Department/{departmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "SearchDepartmentsByName",
+    "RelativePath": "api/Department/Search-Department",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DepartmentController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/Department/Update-Department/{departmentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedDepartment",
+        "Type": "LMS_Library_API.Models.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.ExamController",
     "Method": "GetAllExam",
     "RelativePath": "api/Exam",
