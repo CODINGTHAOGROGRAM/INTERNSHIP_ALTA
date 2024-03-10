@@ -1093,6 +1093,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudyTimeController",
+    "Method": "AddStudyTime",
+    "RelativePath": "api/StudyTime/Add-Study-Time",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudyTimeController",
+    "Method": "GetStudyTimeForStudent",
+    "RelativePath": "api/StudyTime/Study-Time-Student/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.StudyTimeController",
+    "Method": "GetSubjectsStudiedByStudent",
+    "RelativePath": "api/StudyTime/Subject-By-Study-time/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectController",
     "Method": "GetAllSubject",
     "RelativePath": "api/Subject",

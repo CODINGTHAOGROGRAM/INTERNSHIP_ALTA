@@ -12,6 +12,7 @@ using LMS__Elibrary_BE.Services.QuestionExamServices;
 using LMS__Elibrary_BE.Services.RoleServices;
 using LMS__Elibrary_BE.Services.StudentQvsALikeServices;
 using LMS__Elibrary_BE.Services.StudentServices;
+using LMS__Elibrary_BE.Services.StudyTimeServices;
 using LMS__Elibrary_BE.Services.SubjectServices;
 using LMS__Elibrary_BE.Services.UserServices;
 using Microsoft.AspNetCore.Localization;
@@ -50,6 +51,7 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IStudentQvsAService,  StudentQvsAService>();
             builder.Services.AddScoped<IQuestionExamService, QuestionExamService>();
             builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+            builder.Services.AddScoped<IStudyTimeService, StudyTimeService>();
 
 
             var app = builder.Build();

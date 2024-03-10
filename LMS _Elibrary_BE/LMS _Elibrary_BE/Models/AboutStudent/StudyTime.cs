@@ -22,7 +22,5 @@ namespace LMS_Library_API.Models.AboutStudent
 
         [Required]
         public int totalTime { get; set; }
-
-
     }
 }
