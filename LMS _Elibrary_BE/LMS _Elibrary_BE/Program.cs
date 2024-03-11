@@ -4,7 +4,9 @@ using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.Services.ClassServices;
 using LMS__Elibrary_BE.Services.ClassSubjectServices;
+using LMS__Elibrary_BE.Services.CustomInfoOfSubjectServices;
 using LMS__Elibrary_BE.Services.DepartmentServices;
+using LMS__Elibrary_BE.Services.DocumentAccessServices;
 using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
 using LMS__Elibrary_BE.Services.QuestionBankServices;
@@ -12,6 +14,7 @@ using LMS__Elibrary_BE.Services.QuestionExamServices;
 using LMS__Elibrary_BE.Services.RoleServices;
 using LMS__Elibrary_BE.Services.StudentQvsALikeServices;
 using LMS__Elibrary_BE.Services.StudentServices;
+using LMS__Elibrary_BE.Services.StudyHistoryServices;
 using LMS__Elibrary_BE.Services.StudyTimeServices;
 using LMS__Elibrary_BE.Services.SubjectServices;
 using LMS__Elibrary_BE.Services.UserServices;
@@ -52,6 +55,9 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IQuestionExamService, QuestionExamService>();
             builder.Services.AddScoped<IDepartmentService, DepartmentService>();
             builder.Services.AddScoped<IStudyTimeService, StudyTimeService>();
+            builder.Services.AddScoped<IStudyHistoryService, StudyHistoryService>();
+            builder.Services.AddScoped<ICustomInfoOfSubjectService, CustomInfoOfSubjectService>();
+            builder.Services.AddScoped<IDocumentAccessService, DocumentAccessService>();
 
 
             var app = builder.Build();

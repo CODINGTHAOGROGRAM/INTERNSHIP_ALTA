@@ -9,6 +9,8 @@ namespace LMS__Elibrary_BE.Services.StudyHistoryServices
         Task<List<Document>> GetDocumentsWatchedByStudent(Guid studentId);
         Task<string> AddStudyHistory(Guid studentId, int documentId, int watchMinutes);
         Task<string> UpdateStudyHistory(StudyHistory studyHistory);
+        Task<string> DeleteAllStudyHistoryForStudent(Guid studentId);
+
 
 
     }

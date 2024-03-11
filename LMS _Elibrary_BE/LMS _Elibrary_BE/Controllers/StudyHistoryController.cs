@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.StudyHistoryServices;
+using LMS_Library_API.Models.AboutStudent;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
@@ -50,6 +51,35 @@ namespace LMS__Elibrary_BE.Controllers
             try
             {
                 var rs = await _studyHistoryService.AddStudyHistory(studentId, documentId, watchMinutes);
+                return Ok(rs);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+        [HttpPut("UpdateStudyHistory")]
+        public async Task<IActionResult> UpdateStudyHistory(StudyHistory studyHistory)
+        {
+            try
+            {
+                var studyHis = await _studyHistoryService.UpdateStudyHistory(studyHistory);
+                return Ok(studyHis);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("Delete-Study-History/{studentId}")]
+        public async Task<IActionResult> DeleteAllHistory(Guid studentId)
+        {
+            try
+            {
+                var rs = await _studyHistoryService.DeleteAllStudyHistoryForStudent(studentId);
                 return Ok(rs);
             }
             catch (Exception ex)
