@@ -9,6 +9,7 @@ using LMS__Elibrary_BE.Services.DepartmentServices;
 using LMS__Elibrary_BE.Services.DocumentAccessServices;
 using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
+using LMS__Elibrary_BE.Services.LessonServices;
 using LMS__Elibrary_BE.Services.QuestionBankServices;
 using LMS__Elibrary_BE.Services.QuestionExamServices;
 using LMS__Elibrary_BE.Services.RoleServices;
@@ -58,6 +59,7 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IStudyHistoryService, StudyHistoryService>();
             builder.Services.AddScoped<ICustomInfoOfSubjectService, CustomInfoOfSubjectService>();
             builder.Services.AddScoped<IDocumentAccessService, DocumentAccessService>();
+            builder.Services.AddScoped<ILessonService, LessonService>();
 
 
             var app = builder.Build();
