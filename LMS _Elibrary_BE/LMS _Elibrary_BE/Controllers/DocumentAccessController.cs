@@ -17,7 +17,9 @@ namespace LMS__Elibrary_BE.Controllers
             _mapper = mapper;
             _documentAccessService = documentAccessService;
         }
-        [HttpGet]
+
+
+        [HttpGet("All")]
         public async Task<IActionResult> GetAllDocumentAccess()
         {
             try

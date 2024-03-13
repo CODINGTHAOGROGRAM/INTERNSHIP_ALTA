@@ -2,6 +2,7 @@
 using LMS__Elibrary_BE.Models;
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS_Library_API.Models;
+using LMS_Library_API.Models.AboutSubject;
 using LMS_Library_API.Models.Exams;
 
 namespace LMS__Elibrary_BE.ATProfile
@@ -33,6 +34,11 @@ namespace LMS__Elibrary_BE.ATProfile
             //Mapping Student
             CreateMap<StudentDTO, Student>();
             CreateMap<StudentDTO, StudentDTO>();
+
+
+            //Mapping LessonAnswer
+            CreateMap<LessonAnswerDTO, LessonAnswer>();
+            CreateMap<LessonAnswer, LessonAnswerDTO>();
         }
 
     }

@@ -18,8 +18,8 @@ namespace LMS__Elibrary_BE.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllDocument()
+        [HttpGet("Documents")]
+        public async Task<IActionResult> GetAll()
         {
             try
             {
@@ -68,11 +68,11 @@ namespace LMS__Elibrary_BE.Controllers
                 var newDocument = await _documentService.CreateDocumentFromLesson(lessonId);
                 return Ok(newDocument);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-           
+
         }
         [HttpPost("upload")]
         public async Task<IActionResult> UploadDocument([FromForm] IFormFile file)
@@ -114,12 +114,10 @@ namespace LMS__Elibrary_BE.Controllers
                 var rs = await _documentService.DeleteDocument(documentId);
                 return Ok(rs);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-
         }
-
     }
 }
