@@ -194,374 +194,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "GetAllLessons",
-    "RelativePath": "api/controller",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "AddLesson",
-    "RelativePath": "api/controller",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lesson",
-        "Type": "LMS_Library_API.Models.AboutSubject.Lesson",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "GetDocumentsByLesson",
-    "RelativePath": "api/controller/{lessonId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lessonId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "DeleteLesson",
-    "RelativePath": "api/controller/{lessonId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lessonId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "AddNewDocument",
-    "RelativePath": "api/controller/AddDocument",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "document",
-        "Type": "LMS_Library_API.Models.AboutSubject.Document",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "AddDocumentAccessForClass",
-    "RelativePath": "api/controller/AddDocumentAccess",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "classId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "isForAllClasses",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "CreateDocumentFromLesson",
-    "RelativePath": "api/controller/AddDocumentByLesson/{lessonId}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lessonId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "GetAllDocumentAccess",
-    "RelativePath": "api/controller/All",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "DeleteDocument",
-    "RelativePath": "api/controller/Delete/{documentId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "GetDocumentAccessForClass",
-    "RelativePath": "api/controller/DocumentAccess-For-Class/{documentId}/{classId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "classId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "DeleteDocumentAccessForClass",
-    "RelativePath": "api/controller/DocumentAccessForClass/{documentId}/{classId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "classId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "DeleteDocumentAccess",
-    "RelativePath": "api/controller/documentId",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "GetAll",
-    "RelativePath": "api/controller/Documents",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "DownloadDocument",
-    "RelativePath": "api/controller/download/{documentId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "GetDocumentAccessById",
-    "RelativePath": "api/controller/GetById/{documentId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "GetLessonById",
-    "RelativePath": "api/controller/LessonById/{lessonId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lessonId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "GetLessonsByPart",
-    "RelativePath": "api/controller/LessonByPart/{partId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "partId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "GetLessonsByTeacher",
-    "RelativePath": "api/controller/LessonByTeacher/{teacherId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "teacherId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
-    "Method": "UpdateDocumentAccess",
-    "RelativePath": "api/controller/UpdateDocumentAccess",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "documentAccess",
-        "Type": "LMS_Library_API.Models.AboutSubject.DocumentAccess",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
-    "Method": "UpdateLesson",
-    "RelativePath": "api/controller/UpdateLesson/{lessonId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lessonId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updatedLesson",
-        "Type": "LMS_Library_API.Models.AboutSubject.Lesson",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
-    "Method": "UploadDocument",
-    "RelativePath": "api/controller/upload",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "ContentType",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ContentDisposition",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Headers",
-        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
-        "IsRequired": false
-      },
-      {
-        "Name": "Length",
-        "Type": "System.Int64",
-        "IsRequired": false
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FileName",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.CustomInfoOfSubjectController",
     "Method": "UpdateCustomInfoForSubject",
     "RelativePath": "api/CustomInfoOfSubject",
@@ -736,6 +368,263 @@
       {
         "Name": "updatedDepartment",
         "Type": "LMS_Library_API.Models.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "GetDocumentsByLesson",
+    "RelativePath": "api/Document/{lessonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "AddNewDocument",
+    "RelativePath": "api/Document/AddDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "document",
+        "Type": "LMS_Library_API.Models.AboutSubject.Document",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "CreateDocumentFromLesson",
+    "RelativePath": "api/Document/AddDocumentByLesson/{lessonId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "DeleteDocument",
+    "RelativePath": "api/Document/Delete/{documentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Document/Documents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "DownloadDocument",
+    "RelativePath": "api/Document/download/{documentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentController",
+    "Method": "UploadDocument",
+    "RelativePath": "api/Document/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "AddDocumentAccessForClass",
+    "RelativePath": "api/DocumentAccess/AddDocumentAccess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isForAllClasses",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "GetAllDocumentAccess",
+    "RelativePath": "api/DocumentAccess/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "GetDocumentAccessForClass",
+    "RelativePath": "api/DocumentAccess/DocumentAccess-For-Class/{documentId}/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "DeleteDocumentAccessForClass",
+    "RelativePath": "api/DocumentAccess/DocumentAccessForClass/{documentId}/{classId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "DeleteDocumentAccess",
+    "RelativePath": "api/DocumentAccess/documentId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "GetDocumentAccessById",
+    "RelativePath": "api/DocumentAccess/GetById/{documentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.DocumentAccessController",
+    "Method": "UpdateDocumentAccess",
+    "RelativePath": "api/DocumentAccess/UpdateDocumentAccess",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentAccess",
+        "Type": "LMS_Library_API.Models.AboutSubject.DocumentAccess",
         "IsRequired": true
       }
     ],
@@ -959,6 +848,117 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "GetAllLessons",
+    "RelativePath": "api/Lesson",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "AddLesson",
+    "RelativePath": "api/Lesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lesson",
+        "Type": "LMS_Library_API.Models.AboutSubject.Lesson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "DeleteLesson",
+    "RelativePath": "api/Lesson/{lessonId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "GetLessonById",
+    "RelativePath": "api/Lesson/LessonById/{lessonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "GetLessonsByPart",
+    "RelativePath": "api/Lesson/LessonByPart/{partId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "GetLessonsByTeacher",
+    "RelativePath": "api/Lesson/LessonByTeacher/{teacherId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonController",
+    "Method": "UpdateLesson",
+    "RelativePath": "api/Lesson/UpdateLesson/{lessonId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLesson",
+        "Type": "LMS_Library_API.Models.AboutSubject.Lesson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.LessonAnswerController",
     "Method": "GetAllAnswerLesson",
     "RelativePath": "api/LessonAnswer",
@@ -987,7 +987,7 @@
   {
     "ContainingType": "LMS__Elibrary_BE.Controllers.LessonAnswerController",
     "Method": "UpdateAnswerToLessonQuestion",
-    "RelativePath": "api/LessonAnswer",
+    "RelativePath": "api/LessonAnswer/{answerId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -995,7 +995,7 @@
       {
         "Name": "answerId",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "updatedAnswer",
@@ -1048,6 +1048,323 @@
       {
         "Name": "lessonQuestionId",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonQuestionController",
+    "Method": "GetQuestionById",
+    "RelativePath": "api/LessonQuestion/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonQuestionController",
+    "Method": "eleteQuestionFromLesson",
+    "RelativePath": "api/LessonQuestion/{questionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonQuestionController",
+    "Method": "AddQuestionToLesson",
+    "RelativePath": "api/LessonQuestion/AddQuestionForLesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "question",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.LessonQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonQuestionController",
+    "Method": "GetQuestions",
+    "RelativePath": "api/LessonQuestion/Get-All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonQuestionController",
+    "Method": "GetQuestionsForLesson",
+    "RelativePath": "api/LessonQuestion/GetQuestionForLesson/{lessonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.LessonQuestionController",
+    "Method": "UpdateQuestionForLesson",
+    "RelativePath": "api/LessonQuestion/UpdateQuestion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedQuestion",
+        "Type": "LMS_Library_API.Models.AboutSubject.LessonQuestion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "GetAll",
+    "RelativePath": "api/NotificationClassStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "AddNotification",
+    "RelativePath": "api/NotificationClassStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.NotificationClassStudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "UpdateNotification",
+    "RelativePath": "api/NotificationClassStudent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedNotification",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.NotificationClassStudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "GetNotificationsForClass",
+    "RelativePath": "api/NotificationClassStudent/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "RemoveNotificationFromClass",
+    "RelativePath": "api/NotificationClassStudent/{classId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "RemoveNotificationFromStudent",
+    "RelativePath": "api/NotificationClassStudent/{student}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "student",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
+    "Method": "GetNotificationsForStudent",
+    "RelativePath": "api/NotificationClassStudent/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "GetAllParts",
+    "RelativePath": "api/Part",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "AddPart",
+    "RelativePath": "api/Part",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "part",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.PartDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "GetPartsById",
+    "RelativePath": "api/Part/Part/{partId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "UpdatePart",
+    "RelativePath": "api/Part/Part/{partId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "part",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.PartDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "DeletePart",
+    "RelativePath": "api/Part/Part/{partId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "GetPartsBySubject",
+    "RelativePath": "api/Part/Part/{subjectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.PartController",
+    "Method": "GetPartsByTeacher",
+    "RelativePath": "api/Part/Part/{TeacherId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -1963,6 +2280,70 @@
         "Name": "subjectObj",
         "Type": "LMS__Elibrary_BE.ModelsDTO.SubjectDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SystemInforController",
+    "Method": "AddGetInfor",
+    "RelativePath": "api/SystemInfor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newSystem",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.SystemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SystemInforController",
+    "Method": "UpdateSystem",
+    "RelativePath": "api/SystemInfor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemObj",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.SystemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SystemInforController",
+    "Method": "GetInforSystem",
+    "RelativePath": "api/SystemInfor/Infor/{systemId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SystemInforController",
+    "Method": "RemoveSystem",
+    "RelativePath": "api/SystemInfor/System/systemId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SystemId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

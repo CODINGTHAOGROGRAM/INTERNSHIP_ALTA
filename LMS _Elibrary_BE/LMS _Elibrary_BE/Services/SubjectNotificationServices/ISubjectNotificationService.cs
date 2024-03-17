@@ -5,10 +5,11 @@ namespace LMS__Elibrary_BE.Services.SubjectNotificationServices
     public interface ISubjectNotificationService
     {
         Task<List<SubjectNotification>> GetNotificationsForSubject(string subjectId);
-        Task<string> AddNotificationForSubject(SubjectNotification notification);
-        Task<string> UpdateNotificationForSubject(int notificationId, SubjectNotification updatedNotification);
-        Task<string> RemoveNotificationFromSubject(int notificationId);
-
-
+        Task<List<SubjectNotification>> GetNotificationsForTeacher(Guid teacherId);
+        Task<List<SubjectNotification>> GetNotifications();
+        Task<SubjectNotification> GetNotificationsById(int notificationId);
+        Task<string> AddNotification(SubjectNotification notification);
+        Task<string> UpdateNotification( SubjectNotification updatedNotification);
+        Task<string> RemoveNotification(int notificationId);
     }
 }

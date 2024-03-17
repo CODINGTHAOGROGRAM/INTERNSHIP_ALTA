@@ -39,6 +39,21 @@ namespace LMS__Elibrary_BE.ATProfile
             //Mapping LessonAnswer
             CreateMap<LessonAnswerDTO, LessonAnswer>();
             CreateMap<LessonAnswer, LessonAnswerDTO>();
+
+            //Mapping LessonQuestion
+            CreateMap<LessonQuestionDTO, LessonQuestion>();
+            CreateMap<LessonQuestion, LessonQuestionDTO>();
+
+            //Mapping NotificationClassStudent
+            CreateMap<NotificationClassStudentDTO, NotificationClassStudent>();
+            CreateMap<NotificationClassStudent, NotificationClassStudentDTO>();
+
+            //Mapping Part
+            CreateMap<PartDTO, Part>();
+            CreateMap<Part, PartDTO>();
+
+            CreateMap<SystemDTO, SystemInfomation>();
+            CreateMap<SystemInfomation, SystemDTO>();
         }
 
     }

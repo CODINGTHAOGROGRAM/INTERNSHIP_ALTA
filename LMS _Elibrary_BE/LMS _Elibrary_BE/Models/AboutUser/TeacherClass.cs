@@ -11,7 +11,6 @@ namespace LMS_Library_API.Models.AboutUser
         public Guid teacherId { get; set; }
         public virtual User Teacher { get; set; }
 
-
         [Column(TypeName = "nvarchar(30)")]
         [MaxLength(30)]
         [ForeignKey("Class")]

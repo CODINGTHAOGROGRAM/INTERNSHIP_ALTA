@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 
@@ -20,6 +21,10 @@ namespace LMS_Library_API.Models.AboutSubject
         [AllowNull]
         public Guid studentId { get; set; }
         public virtual Student Student { get; set; }
+
+        [DefaultValue(false)]
+        public bool IsRead{get; set; }
+
 
         [Required]
         public bool isForAllStudent { get; set; }
