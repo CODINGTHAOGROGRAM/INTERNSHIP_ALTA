@@ -80,7 +80,7 @@ namespace LMS_Library_API.Models
         public virtual ICollection<TeacherClass> TeacherClasses { get; set; }
 
         [JsonIgnore]
-        public virtual QnALikes QnALikes { get; set; }
+        public virtual QnALikeDTO QnALikes { get; set; }
 
         [JsonIgnore]
         [InverseProperty("Recipient")]

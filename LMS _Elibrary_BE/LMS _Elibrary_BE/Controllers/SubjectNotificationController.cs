@@ -90,7 +90,7 @@ namespace LMS__Elibrary_BE.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> UpdateNotification(SubjectNotification updatedNotification)
         {
             try

@@ -742,6 +742,101 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamRecentViewsController",
+    "Method": "GetAllExamRecentViews",
+    "RelativePath": "api/ExamRecentViews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamRecentViewsController",
+    "Method": "AddExamRecentViews",
+    "RelativePath": "api/ExamRecentViews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examRecentViews",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.ExamRecentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamRecentViewsController",
+    "Method": "UpdateExamRecentViews",
+    "RelativePath": "api/ExamRecentViews",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examRecentViews",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.ExamRecentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamRecentViewsController",
+    "Method": "DeleteExamRecentViews",
+    "RelativePath": "api/ExamRecentViews/{examId}/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "examId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamRecentViewsController",
+    "Method": "GetExamRecentViewsByExamId",
+    "RelativePath": "api/ExamRecentViews/ExamView/{examId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.ExamRecentViewsController",
+    "Method": "GetExamRecentViewsByUserId",
+    "RelativePath": "api/ExamRecentViews/ExamView/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.FilePrivateController",
     "Method": "GetAllFiles",
     "RelativePath": "api/FilePrivate",
@@ -842,6 +937,95 @@
       {
         "Name": "fileObj",
         "Type": "LMS__Elibrary_BE.ModelsDTO.FileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.HelpController",
+    "Method": "GetAllHelp",
+    "RelativePath": "api/Help",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.HelpController",
+    "Method": "AddHelp",
+    "RelativePath": "api/Help",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "help",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.HelpDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.HelpController",
+    "Method": "UpdateHelp",
+    "RelativePath": "api/Help",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "help",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.HelpDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.HelpController",
+    "Method": "GetHelpById",
+    "RelativePath": "api/Help/{helpId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "helpId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.HelpController",
+    "Method": "DeleteHelp",
+    "RelativePath": "api/Help/{helpId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "helpId",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -1149,6 +1333,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationController",
+    "Method": "GetAllNotifications",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationController",
+    "Method": "AddNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.NotificationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationController",
+    "Method": "MarkNotificationAsRead",
+    "RelativePath": "api/Notification/MarkRead/{notificationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationController",
+    "Method": "GetNotificationsByRecipientId",
+    "RelativePath": "api/Notification/Notification/{recipientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recipientId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Notification/notificationId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationController",
+    "Method": "GetUnreadNotificationsByRecipientId",
+    "RelativePath": "api/Notification/UnRead/{recipientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recipientId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationClassStudentController",
     "Method": "GetAll",
     "RelativePath": "api/NotificationClassStudent",
@@ -1253,6 +1527,205 @@
     "Parameters": [
       {
         "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationFeatureController",
+    "Method": "GetAllNotificationFeatures",
+    "RelativePath": "api/NotificationFeature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationFeatureController",
+    "Method": "AddNotificationFeatures",
+    "RelativePath": "api/NotificationFeature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationFeatures",
+        "Type": "LMS_Library_API.Models.Notification.NotificationFeatures",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationFeatureController",
+    "Method": "UpdateNotificationFeatures",
+    "RelativePath": "api/NotificationFeature",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "featuresId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedNotificationFeatures",
+        "Type": "LMS_Library_API.Models.Notification.NotificationFeatures",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationFeatureController",
+    "Method": "DeleteNotificationFeatures",
+    "RelativePath": "api/NotificationFeature/{featureId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "featuresId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "featureId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationFeatureController",
+    "Method": "GetNotificationFeaturesById",
+    "RelativePath": "api/NotificationFeature/Notification/{featureId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "featuresId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "featureId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationSettingController",
+    "Method": "GetAllNotificationSettings",
+    "RelativePath": "api/NotificationSetting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationSettingController",
+    "Method": "AddNotificationSetting",
+    "RelativePath": "api/NotificationSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationSetting",
+        "Type": "LMS_Library_API.Models.Notification.NotificationSetting",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationSettingController",
+    "Method": "UpdateNotificationSetting",
+    "RelativePath": "api/NotificationSetting",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationSetting",
+        "Type": "LMS_Library_API.Models.Notification.NotificationSetting",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationSettingController",
+    "Method": "GetNotificationSettingByUserIdAndFeaturesId",
+    "RelativePath": "api/NotificationSetting/{userId}/{featureId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "featuresId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "featureId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationSettingController",
+    "Method": "DeleteNotificationSetting",
+    "RelativePath": "api/NotificationSetting/{userId}/{featureId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "featuresId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "featureId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.NotificationSettingController",
+    "Method": "GetNotificationSettingsByUserId",
+    "RelativePath": "api/NotificationSetting/User/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -1651,6 +2124,117 @@
         "Name": "newAnswerContent",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QvsALikeServiceController",
+    "Method": "UpdateQnALikes",
+    "RelativePath": "api/QvsALikeService",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedQnALikes",
+        "Type": "LMS_Library_API.Models.AboutUser.QnALikeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QvsALikeServiceController",
+    "Method": "GetQnALikesByUserId",
+    "RelativePath": "api/QvsALikeService/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QvsALikeServiceController",
+    "Method": "GetLikedAnswersById",
+    "RelativePath": "api/QvsALikeService/Answer/{answerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "answerId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QvsALikeServiceController",
+    "Method": "ClearLikedAnswers",
+    "RelativePath": "api/QvsALikeService/Answer/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QvsALikeServiceController",
+    "Method": "GetLikedQuestionsById",
+    "RelativePath": "api/QvsALikeService/Question/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "questionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.QvsALikeServiceController",
+    "Method": "ClearLikedQuestions",
+    "RelativePath": "api/QvsALikeService/Question/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -2285,6 +2869,112 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/SubjectNotification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "AddNotification",
+    "RelativePath": "api/SubjectNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.SubjectNotificationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "UpdateNotification",
+    "RelativePath": "api/SubjectNotification",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedNotification",
+        "Type": "LMS_Library_API.Models.AboutSubject.SubjectNotification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "GetNotificationsById",
+    "RelativePath": "api/SubjectNotification/{notificationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/SubjectNotification/Notification/{notificationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "GetNotificationsForSubject",
+    "RelativePath": "api/SubjectNotification/Notification/{subjectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.SubjectNotificationController",
+    "Method": "GetNotificationsForTeacher",
+    "RelativePath": "api/SubjectNotification/Notification/{teacherId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS__Elibrary_BE.Controllers.SystemInforController",
     "Method": "AddGetInfor",
     "RelativePath": "api/SystemInfor",
@@ -2344,6 +3034,101 @@
         "Name": "SystemId",
         "Type": "System.Guid",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.TeacherClassController",
+    "Method": "GetAllTeacherClasses",
+    "RelativePath": "api/TeacherClass",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.TeacherClassController",
+    "Method": "AddTeacherClass",
+    "RelativePath": "api/TeacherClass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherClass",
+        "Type": "LMS__Elibrary_BE.ModelsDTO.TeacherClassDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.TeacherClassController",
+    "Method": "UpdateTeacherClass",
+    "RelativePath": "api/TeacherClass",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherClass",
+        "Type": "LMS_Library_API.Models.AboutUser.TeacherClass",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.TeacherClassController",
+    "Method": "RemoveTeacherFromClass",
+    "RelativePath": "api/TeacherClass/{teacherId}/{classId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.TeacherClassController",
+    "Method": "GetTeacherClassesByClassId",
+    "RelativePath": "api/TeacherClass/Classes/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS__Elibrary_BE.Controllers.TeacherClassController",
+    "Method": "GetTeacherClassesByTeacherId",
+    "RelativePath": "api/TeacherClass/Classes/{teacherId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

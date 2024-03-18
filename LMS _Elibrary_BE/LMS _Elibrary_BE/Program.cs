@@ -7,15 +7,21 @@ using LMS__Elibrary_BE.Services.ClassSubjectServices;
 using LMS__Elibrary_BE.Services.CustomInfoOfSubjectServices;
 using LMS__Elibrary_BE.Services.DepartmentServices;
 using LMS__Elibrary_BE.Services.DocumentAccessServices;
+using LMS__Elibrary_BE.Services.ExamRecentViewsServices;
 using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
+using LMS__Elibrary_BE.Services.HelpServices;
 using LMS__Elibrary_BE.Services.LessonAnswerServices;
 using LMS__Elibrary_BE.Services.LessonQuestionServices;
 using LMS__Elibrary_BE.Services.LessonServices;
 using LMS__Elibrary_BE.Services.NotificationClassStudentServices;
+using LMS__Elibrary_BE.Services.NotificationFeaturesServices;
+using LMS__Elibrary_BE.Services.NotificationServices;
+using LMS__Elibrary_BE.Services.NotificationSettingServices;
 using LMS__Elibrary_BE.Services.PartServices;
 using LMS__Elibrary_BE.Services.QuestionBankServices;
 using LMS__Elibrary_BE.Services.QuestionExamServices;
+using LMS__Elibrary_BE.Services.QvsAServices;
 using LMS__Elibrary_BE.Services.RoleServices;
 using LMS__Elibrary_BE.Services.StudentQvsALikeServices;
 using LMS__Elibrary_BE.Services.StudentServices;
@@ -24,6 +30,7 @@ using LMS__Elibrary_BE.Services.StudyTimeServices;
 using LMS__Elibrary_BE.Services.SubjectNotificationServices;
 using LMS__Elibrary_BE.Services.SubjectServices;
 using LMS__Elibrary_BE.Services.SystemInforServices;
+using LMS__Elibrary_BE.Services.TeacherClassServices;
 using LMS__Elibrary_BE.Services.UserServices;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
@@ -72,6 +79,15 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<IPartService , PartService>();
             builder.Services.AddScoped<ISystemInforService , SystemInforService>();
             builder.Services.AddScoped<ISubjectNotificationService , SubjectNotificationService>();
+            builder.Services.AddScoped<IExamRecentViewsService , ExamRecentViewsService>();
+            builder.Services.AddScoped<IHelpService, HelpService>();
+            builder.Services.AddScoped<IQvsAService , QvsAService>();
+            builder.Services.AddScoped<ITeacherClassService , TeacherClassService>();
+            builder.Services.AddScoped<INotificationService, NotificationService>();
+            builder.Services.AddScoped<INotificationFeaturesService , NotificationFeaturesService>();
+            builder.Services.AddScoped<INotificationSettingService, NotificationSettingService>();
+
+
 
 
             var app = builder.Build();

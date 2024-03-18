@@ -3,6 +3,7 @@ using LMS__Elibrary_BE.Models;
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS_Library_API.Models;
 using LMS_Library_API.Models.AboutSubject;
+using LMS_Library_API.Models.AboutUser;
 using LMS_Library_API.Models.Exams;
 
 namespace LMS__Elibrary_BE.ATProfile
@@ -52,8 +53,25 @@ namespace LMS__Elibrary_BE.ATProfile
             CreateMap<PartDTO, Part>();
             CreateMap<Part, PartDTO>();
 
+            //Mapping SystemInformation
             CreateMap<SystemDTO, SystemInfomation>();
             CreateMap<SystemInfomation, SystemDTO>();
+
+            //Mapping ExamRecent
+            CreateMap<ExamRecentDTO, ExamRecentViews>();
+            CreateMap<ExamRecentViews, ExamRecentDTO>();
+            
+            //Mapping Help
+            CreateMap<HelpDTO, Help>();
+            CreateMap<Help, HelpDTO>();
+
+            //Mapping QvsAlike
+            CreateMap<QvsALikeDTO, QnALikeDTO>();
+            CreateMap<QnALikeDTO, QvsALikeDTO>();
+
+            //Mapping TeacherClass
+            CreateMap<TeacherClassDTO, TeacherClass>();
+            CreateMap<TeacherClass, TeacherClassDTO>();
         }
 
     }

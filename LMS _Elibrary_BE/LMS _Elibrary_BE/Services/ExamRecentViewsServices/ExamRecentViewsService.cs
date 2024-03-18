@@ -83,5 +83,25 @@ namespace LMS__Elibrary_BE.Services.ExamRecentViewsServices
                 throw new Exception("Lỗi khi thực hiện" + ex.Message);
             }
         }
+
+        public async Task<string> UpdateExamRecentViews(ExamRecentViews examRecentViews)
+        {
+            try
+            {
+                var exist = await _context.ExamRecentViews.FirstOrDefaultAsync(x => x.ExamId == examRecentViews.ExamId);
+                if (exist != null)
+                {
+                    exist.UserId = examRecentViews.UserId;
+                    exist.ExamId = examRecentViews.ExamId;
+                    await _context.SaveChangesAsync();
+                    return "Thay đổi thành công";
+                }
+                return "Không tìm thấy đối tượng cần thay đổi";
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Lỗi khi thực hiện" + ex.Message);
+            }
+        }
     }
 }

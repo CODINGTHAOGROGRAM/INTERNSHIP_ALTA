@@ -16,6 +16,7 @@ namespace LMS__Elibrary_BE.Services.PartServices
         {
             try
             {
+                part.censorId = null;
                 _context.Parts.Add(part);
                 await _context.SaveChangesAsync();
                 return "Lưu thành công";

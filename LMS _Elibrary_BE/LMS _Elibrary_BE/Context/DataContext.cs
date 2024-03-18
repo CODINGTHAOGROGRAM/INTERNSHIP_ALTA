@@ -19,7 +19,7 @@ namespace LMS__Elibrary_BE.Context
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<NotificationFeatures> NotificationFeatures { get; set; }
         public DbSet<NotificationSetting> NotificationSetting { get; set; }
-        public DbSet<QnALikes> QnALikes { get; set; }
+        public DbSet<QnALikeDTO> QnALikes { get; set; }
         public DbSet<Help> Helps { get; set; }
         public DbSet<PrivateFile> PrivateFiles { get; set; }
         public DbSet<ExamRecentViews> ExamRecentViews { get; set; }
@@ -62,7 +62,7 @@ namespace LMS__Elibrary_BE.Context
             modelBuilder.Entity<Notification>().ToTable("Notification");
             modelBuilder.Entity<NotificationFeatures>().ToTable("NotificationFeatures");
             modelBuilder.Entity<NotificationSetting>().ToTable("NotificationSetting");
-            modelBuilder.Entity<QnALikes>().ToTable("QnALikes");
+            modelBuilder.Entity<QnALikeDTO>().ToTable("QnALikes");
             modelBuilder.Entity<Help>().ToTable("Help");
             modelBuilder.Entity<PrivateFile>().ToTable("PrivateFile");
             modelBuilder.Entity<ExamRecentViews>().ToTable("ExamRecentViews");
@@ -126,6 +126,10 @@ namespace LMS__Elibrary_BE.Context
 
             modelBuilder.Entity<StudyHistory>()
             .HasKey(sh => new { sh.studentId, sh.documentId });
+
+            modelBuilder.Entity<Part>()
+            .Property(p => p.Id)
+            .ValueGeneratedOnAdd();
 
         }
 

@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace LMS_Library_API.Models.AboutUser
 {
-    public class QnALikes
+    public class QnALikeDTO
     {
         [Key]
         [ForeignKey("User")]

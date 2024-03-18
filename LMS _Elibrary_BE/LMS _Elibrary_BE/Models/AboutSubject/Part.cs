@@ -7,7 +7,9 @@ namespace LMS_Library_API.Models.AboutSubject
 {
     public class Part
     {
-        [Key] public int Id { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
 
         [Column(TypeName = "nvarchar(255)")]
         [Required]
