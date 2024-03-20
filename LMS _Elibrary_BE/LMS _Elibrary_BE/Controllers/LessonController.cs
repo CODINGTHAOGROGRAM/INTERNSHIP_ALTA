@@ -1,12 +1,14 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.LessonServices;
 using LMS_Library_API.Models.AboutSubject;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LessonController : Controller
     {
         private readonly ILessonService _lessonService;

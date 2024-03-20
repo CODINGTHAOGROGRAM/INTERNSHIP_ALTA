@@ -12,6 +12,7 @@ namespace LMS__Elibrary_BE.Services.DocumentServices
         Task<string> UploadDocument(IFormFile file);
         Task<string> CreateDocumentFromLesson(int lessonId);
         Task<FileStreamResult> DownloadDocument(int documentId);
-
+       
+     
     }
 }

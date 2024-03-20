@@ -3,6 +3,7 @@ using LMS__Elibrary_BE.Helpers;
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.UserServices;
 using LMS_Library_API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,8 @@ namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;

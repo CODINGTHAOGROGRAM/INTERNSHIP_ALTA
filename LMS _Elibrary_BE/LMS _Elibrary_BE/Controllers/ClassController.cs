@@ -2,6 +2,7 @@
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.ClassServices;
 using LMS_Library_API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
@@ -9,7 +10,7 @@ namespace LMS__Elibrary_BE.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-
+    [Authorize]
     public class ClassController : Controller
     {
         private readonly IClassService _classService;

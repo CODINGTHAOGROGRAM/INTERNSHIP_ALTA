@@ -1,12 +1,15 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Models.Exams;
 using LMS__Elibrary_BE.Services.QuestionExamServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class QuestionExamController : Controller
     {
 

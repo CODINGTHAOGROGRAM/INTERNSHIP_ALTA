@@ -2,11 +2,13 @@
 using AutoMapper;
 using LMS__Elibrary_BE.Context;
 using LMS__Elibrary_BE.Helpers;
+using LMS__Elibrary_BE.Services.AuthServices;
 using LMS__Elibrary_BE.Services.ClassServices;
 using LMS__Elibrary_BE.Services.ClassSubjectServices;
 using LMS__Elibrary_BE.Services.CustomInfoOfSubjectServices;
 using LMS__Elibrary_BE.Services.DepartmentServices;
 using LMS__Elibrary_BE.Services.DocumentAccessServices;
+using LMS__Elibrary_BE.Services.DocumentServices;
 using LMS__Elibrary_BE.Services.ExamRecentViewsServices;
 using LMS__Elibrary_BE.Services.ExamServices;
 using LMS__Elibrary_BE.Services.FilePrivateServices;
@@ -55,6 +57,7 @@ namespace LMS__Elibrary_BE
 
             builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connectString));
 
+            builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<IRoleService, RoleService>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IUpLoadFileHelper, UpLoadFileHelper>();
@@ -86,6 +89,7 @@ namespace LMS__Elibrary_BE
             builder.Services.AddScoped<INotificationService, NotificationService>();
             builder.Services.AddScoped<INotificationFeaturesService , NotificationFeaturesService>();
             builder.Services.AddScoped<INotificationSettingService, NotificationSettingService>();
+            builder.Services.AddScoped<IDocumentService, DocumentService>();
 
 
 

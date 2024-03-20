@@ -1,12 +1,15 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.DocumentServices;
 using LMS_Library_API.Models.AboutSubject;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class DocumentController : Controller
     {
         private readonly IMapper _mapper;
@@ -45,6 +48,42 @@ namespace LMS__Elibrary_BE.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("DownloadFile")]
+        public async Task<IActionResult> DownloadFile(string filename)
+        {
+            var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Upload\\Documents", filename);
+
+            var provider = new FileExtensionContentTypeProvider();
+            if (!provider.TryGetContentType(filepath, out var contenttype))
+            {
+                contenttype = "application/octet-stream";
+            }
+
+            var bytes = await System.IO.File.ReadAllBytesAsync(filepath);
+            return File(bytes, contenttype, Path.GetFileName(filepath));
+        }
+
+
+        [HttpPost]
+        [Route("UploadFile")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> UploadFile(IFormFile file, CancellationToken cancellationtoken)
+        {
+            try
+            {
+                var result = await WriteFile(file);
+                return Ok(result);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+          
+        }
+
 
         [HttpPost("AddDocument")]
         public async Task<IActionResult> AddNewDocument(Document document)
@@ -118,6 +157,37 @@ namespace LMS__Elibrary_BE.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+
+        private async Task<string> WriteFile(IFormFile file)
+        {
+            string filename = "";
+            try
+            {
+                var extension = "." + file.FileName.Split('.')[file.FileName.Split('.').Length - 1];
+                filename = DateTime.Now.Ticks.ToString() + extension;
+
+                var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Upload\\Documents");
+
+                if (!Directory.Exists(filepath))
+                {
+                    Directory.CreateDirectory(filepath);
+                }
+
+                var exactpath = Path.Combine(filepath, filename);
+
+                using (var stream = new FileStream(exactpath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return filename;
+
         }
     }
 }

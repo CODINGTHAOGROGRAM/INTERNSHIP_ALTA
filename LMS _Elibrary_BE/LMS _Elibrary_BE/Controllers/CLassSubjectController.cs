@@ -1,12 +1,14 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.ClassSubjectServices;
 using LMS_Library_API.Models.AboutStudent;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CLassSubjectController : Controller
     {
         private readonly IMapper _mapper;

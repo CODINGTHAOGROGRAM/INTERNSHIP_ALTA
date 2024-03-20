@@ -2,6 +2,7 @@
 using LMS__Elibrary_BE.Context;
 using LMS_Library_API.Models.AboutSubject;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
 namespace LMS__Elibrary_BE.Services.DocumentServices
@@ -102,6 +103,8 @@ namespace LMS__Elibrary_BE.Services.DocumentServices
            
         }
 
+       
+
         public async Task<List<Document>> GetAllDocument()
         {
             try
@@ -151,5 +154,7 @@ namespace LMS__Elibrary_BE.Services.DocumentServices
             }
             
         }
+
+       
     }
 }

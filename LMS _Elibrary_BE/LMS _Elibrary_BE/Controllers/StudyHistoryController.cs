@@ -1,12 +1,15 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.StudyHistoryServices;
 using LMS_Library_API.Models.AboutStudent;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class StudyHistoryController : Controller
     {
         private readonly IStudyHistoryService _studyHistoryService;

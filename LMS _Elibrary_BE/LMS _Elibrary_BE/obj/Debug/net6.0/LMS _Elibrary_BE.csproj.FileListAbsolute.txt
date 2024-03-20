@@ -83,3 +83,4 @@ D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\refint\LMS
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.pdb
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\LMS _Elibrary_BE.genruntimeconfig.cache
 D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\obj\Debug\net6.0\ref\LMS _Elibrary_BE.dll
+D:\INTERNSHIP_ALTA\LMS _Elibrary_BE\LMS _Elibrary_BE\bin\Debug\net6.0\LMS _Elibrary_BE.staticwebassets.runtime.json

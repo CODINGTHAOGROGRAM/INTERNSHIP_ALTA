@@ -1,12 +1,14 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.CustomInfoOfSubjectServices;
 using LMS_Library_API.Models.AboutSubject;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CustomInfoOfSubjectController : Controller
     {
         private readonly ICustomInfoOfSubjectService _customInfoOfSubjectService;

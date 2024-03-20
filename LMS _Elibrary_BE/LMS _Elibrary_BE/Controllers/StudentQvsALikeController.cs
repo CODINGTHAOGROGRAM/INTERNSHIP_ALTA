@@ -1,10 +1,13 @@
 ﻿using LMS__Elibrary_BE.Services.StudentQvsALikeServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class StudentQvsALikeController : Controller
     {
         private readonly IStudentQvsAService _studentQvsAService;

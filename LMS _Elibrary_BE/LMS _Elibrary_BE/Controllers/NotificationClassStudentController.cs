@@ -3,12 +3,15 @@ using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.NotificationClassStudentServices;
 using LMS_Library_API.Models.AboutSubject;
 using LMS_Library_API.Models.Notification;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class NotificationClassStudentController : Controller
     {
         private readonly IMapper _mapper;

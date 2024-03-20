@@ -2,6 +2,7 @@
 using LMS__Elibrary_BE.Models;
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.RoleServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,8 @@ namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class RoleController : ControllerBase
     {
         private readonly IRoleService _roleService;

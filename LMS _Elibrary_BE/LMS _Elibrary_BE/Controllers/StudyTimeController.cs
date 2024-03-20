@@ -1,11 +1,14 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.StudyTimeServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class StudyTimeController : Controller
     {
         private readonly IMapper _mapper;

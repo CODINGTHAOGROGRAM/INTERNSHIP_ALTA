@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using LMS__Elibrary_BE.Services.DepartmentServices;
 using LMS_Library_API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
@@ -8,7 +9,7 @@ namespace LMS__Elibrary_BE.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-
+    [Authorize]
     public class DepartmentController : Controller
     {
         private readonly IDepartmentService _departmentService;

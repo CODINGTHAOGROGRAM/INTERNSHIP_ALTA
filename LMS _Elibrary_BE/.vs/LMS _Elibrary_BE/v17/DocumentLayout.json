@@ -3,108 +3,172 @@
   "WorkspaceRootPath": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutsubject\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutsubject\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\partservices\\partservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\partservices\\partservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\partcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\partcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationfeaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationfeaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationsettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationsettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\notificationsettingservices\\inotificationsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\notificationsettingservices\\inotificationsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\notificationsettingservices\\notificationsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\notificationsettingservices\\notificationsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\modelsdto\\notificationsettingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\modelsdto\\notificationsettingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\notification\\notificationsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\notification\\notificationsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\notificationfeaturesservices\\inotificationfeaturesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\notificationfeaturesservices\\inotificationfeaturesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\notification\\notificationfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\notification\\notificationfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\notificationservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\notificationservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\notificationservices\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\notificationservices\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\modelsdto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\modelsdto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\notification\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\notification\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\teacherclasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\teacherclasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\teacherclassservices\\iteacherclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\teacherclassservices\\iteacherclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\systeminforcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\systeminforcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutuser\\teacherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\teacherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\subjectnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\subjectnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\teacherclassservices\\teacherclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\teacherclassservices\\teacherclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\studytimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\studytimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\studyhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\studyhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\studentqvsalikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\studentqvsalikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\qvsalikeservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\qvsalikeservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\qvsaservices\\qvsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\qvsaservices\\qvsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\questionexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\questionexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\models\\aboutuser\\privatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutuser\\privatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\questionbankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\questionbankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\qvsaservices\\iqvsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\qvsaservices\\iqvsaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\partcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\partcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationsettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationsettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationfeaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationfeaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\notificationclassstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\notificationclassstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\lessonquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\lessonquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\lessonanswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\lessonanswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\fileprivatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\fileprivatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\examrecentviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\examrecentviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\documentaccesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\documentaccesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\custominfoofsubjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\custominfoofsubjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\classsubjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\classsubjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|d:\\internship_alta\\lms _elibrary_be\\lms _elibrary_be\\services\\documentservices\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\documentservices\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\services\\documentservices\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\services\\documentservices\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\helpers\\uploadfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\helpers\\uploadfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\models\\aboutsubject\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\models\\aboutsubject\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\lms _elibrary_be\\helpers\\encodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1341330-4561-4161-AD27-35059EE79CFA}|LMS _Elibrary_BE\\LMS _Elibrary_BE.csproj|solutionrelative:lms _elibrary_be\\helpers\\encodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,349 +178,553 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:47.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:43.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherClassController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:40.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SystemInforController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SystemInforController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\SystemInforController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SystemInforController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\SystemInforController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:36.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubjectNotificationController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SubjectNotificationController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\SubjectNotificationController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SubjectNotificationController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\SubjectNotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:13.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\SubjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:10.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudyTimeController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudyTimeController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\StudyTimeController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudyTimeController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\StudyTimeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:07.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudyHistoryController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudyHistoryController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\StudyHistoryController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudyHistoryController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\StudyHistoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:14:03.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentQvsALikeController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudentQvsALikeController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\StudentQvsALikeController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudentQvsALikeController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\StudentQvsALikeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:59.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:56.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:52.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QvsALikeServiceController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:49.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestionExamController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\QuestionExamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:45.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuestionBankController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\QuestionBankController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:42.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PartController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\PartController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\PartController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\PartController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\PartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:39.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotificationSettingController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:34.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificationFeatureController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:30.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:26.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NotificationClassStudentController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationClassStudentController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationClassStudentController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationClassStudentController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationClassStudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:22.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LessonQuestionController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\LessonQuestionController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\LessonQuestionController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\LessonQuestionController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\LessonQuestionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:13.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\LessonController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\LessonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:13:05.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LessonAnswerController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\LessonAnswerController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\LessonAnswerController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\LessonAnswerController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\LessonAnswerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:59.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HelpController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\HelpController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\HelpController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\HelpController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\HelpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:53.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FilePrivateController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\FilePrivateController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\FilePrivateController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\FilePrivateController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\FilePrivateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:47.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExamRecentViewsController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ExamRecentViewsController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\ExamRecentViewsController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ExamRecentViewsController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\ExamRecentViewsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:34.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\ExamController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\ExamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:27.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DocumentAccessController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DocumentAccessController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\DocumentAccessController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DocumentAccessController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\DocumentAccessController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:10.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:12:03.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomInfoOfSubjectController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\CustomInfoOfSubjectController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\CustomInfoOfSubjectController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\CustomInfoOfSubjectController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\CustomInfoOfSubjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:11:56.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CLassSubjectController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\CLassSubjectController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\CLassSubjectController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\CLassSubjectController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\CLassSubjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:11:48.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\ClassController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:11:41.808Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Context\\DataContext.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Context\\DataContext.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Context\\DataContext.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Context\\DataContext.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAmwIUAAAAJAAAA",
+              "DocumentIndex": 32,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T19:05:48.536Z",
+              "WhenOpened": "2024-03-20T03:50:25.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Part.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutSubject\\Part.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutSubject\\Part.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutSubject\\Part.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutSubject\\Part.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwCQAAAArAAAA",
+              "DocumentIndex": 34,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwC4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T19:05:17.762Z",
+              "WhenOpened": "2024-03-20T03:03:25.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PartService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\PartServices\\PartService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\PartServices\\PartService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\PartServices\\PartService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\PartServices\\PartService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAA5AAAA",
+              "DocumentIndex": 26,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\DocumentController.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\DocumentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T19:04:01.917Z",
+              "WhenOpened": "2024-03-19T08:04:52.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PartController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\PartController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\PartController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\PartController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\PartController.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAmwGcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T19:03:45.828Z",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\appsettings.json",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\appsettings.json",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\appsettings.json",
+              "RelativeToolTip": "LMS _Elibrary_BE\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T03:29:37.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NotificationSettingController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationSettingController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAADgv0sAAAAQAAAA",
+              "DocumentIndex": 33,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\AuthServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\AuthServices\\IAuthService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\AuthServices\\IAuthService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\AuthServices\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:28:24.579Z",
+              "WhenOpened": "2024-03-20T02:59:57.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NotificationSettingDTO.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\ModelsDTO\\NotificationSettingDTO.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\ModelsDTO\\NotificationSettingDTO.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\ModelsDTO\\NotificationSettingDTO.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\ModelsDTO\\NotificationSettingDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:11:51.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NotificationSetting.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Notification\\NotificationSetting.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Notification\\NotificationSetting.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Notification\\NotificationSetting.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Notification\\NotificationSetting.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:11:15.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "INotificationSettingService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationSettingServices\\INotificationSettingService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\NotificationSettingServices\\INotificationSettingService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationSettingServices\\INotificationSettingService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\NotificationSettingServices\\INotificationSettingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:59:51.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NotificationSettingService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationSettingServices\\NotificationSettingService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\NotificationSettingServices\\NotificationSettingService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationSettingServices\\NotificationSettingService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\NotificationSettingServices\\NotificationSettingService.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAcwG8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:59:41.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotificationFeatureController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationFeatureController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAlwFcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:51:24.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 36,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
               "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Program.cs",
               "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Program.cs",
               "RelativeToolTip": "LMS _Elibrary_BE\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAiwB4AAAAwAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAgwDsAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T08:56:48.965Z",
+              "WhenOpened": "2024-03-19T08:09:13.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "INotificationFeaturesService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationFeaturesServices\\INotificationFeaturesService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\NotificationFeaturesServices\\INotificationFeaturesService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationFeaturesServices\\INotificationFeaturesService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\NotificationFeaturesServices\\INotificationFeaturesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "DocumentIndex": 37,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DocumentServices\\DocumentService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\DocumentServices\\DocumentService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DocumentServices\\DocumentService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\DocumentServices\\DocumentService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAwGIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:50:57.088Z",
+              "WhenOpened": "2024-03-19T08:01:40.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NotificationFeatures.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Notification\\NotificationFeatures.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Notification\\NotificationFeatures.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Notification\\NotificationFeatures.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Notification\\NotificationFeatures.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAABAAAA",
+              "DocumentIndex": 40,
+              "Title": "Document.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutSubject\\Document.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutSubject\\Document.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutSubject\\Document.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutSubject\\Document.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:51:24.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T07:59:43.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NotificationDTO.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\ModelsDTO\\NotificationDTO.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\ModelsDTO\\NotificationDTO.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\ModelsDTO\\NotificationDTO.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\ModelsDTO\\NotificationDTO.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAASAAAA",
+              "DocumentIndex": 38,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DocumentServices\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\DocumentServices\\IDocumentService.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\DocumentServices\\IDocumentService.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\DocumentServices\\IDocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:29:02.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T07:59:07.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\NotificationController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAlwCgAAABXAAAA",
+              "DocumentIndex": 39,
+              "Title": "UpLoadFileHelper.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Helpers\\UpLoadFileHelper.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Helpers\\UpLoadFileHelper.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Helpers\\UpLoadFileHelper.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Helpers\\UpLoadFileHelper.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwDoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:15:49.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T06:25:43.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationServices\\NotificationService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\NotificationServices\\NotificationService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationServices\\NotificationService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\NotificationServices\\NotificationService.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAmwF8AAAARAAAA",
+              "DocumentIndex": 41,
+              "Title": "EncodeHelper.cs",
+              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Helpers\\EncodeHelper.cs",
+              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Helpers\\EncodeHelper.cs",
+              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Helpers\\EncodeHelper.cs",
+              "RelativeToolTip": "LMS _Elibrary_BE\\Helpers\\EncodeHelper.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:56:06.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "INotificationService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationServices\\INotificationService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\NotificationServices\\INotificationService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\NotificationServices\\INotificationService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\NotificationServices\\INotificationService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:54:33.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Notification\\Notification.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\Notification\\Notification.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\Notification\\Notification.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\Notification\\Notification.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:16:58.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TeacherClassController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\TeacherClassController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAUwGQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:34:06.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TeacherClass.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\TeacherClass.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutUser\\TeacherClass.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\TeacherClass.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutUser\\TeacherClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:32:17.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ITeacherClassService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\TeacherClassServices\\ITeacherClassService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\TeacherClassServices\\ITeacherClassService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\TeacherClassServices\\ITeacherClassService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\TeacherClassServices\\ITeacherClassService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:12:12.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TeacherClassService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\TeacherClassServices\\TeacherClassService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\TeacherClassServices\\TeacherClassService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\TeacherClassServices\\TeacherClassService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\TeacherClassServices\\TeacherClassService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:12:01.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PrivateFile.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Models\\AboutUser\\PrivateFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T14:01:24.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "QvsALikeServiceController.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Controllers\\QvsALikeServiceController.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAADwv2UAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T13:01:53.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "QvsAService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QvsAServices\\QvsAService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\QvsAServices\\QvsAService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QvsAServices\\QvsAService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\QvsAServices\\QvsAService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T08:56:32.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IQvsAService.cs",
-              "DocumentMoniker": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QvsAServices\\IQvsAService.cs",
-              "RelativeDocumentMoniker": "LMS _Elibrary_BE\\Services\\QvsAServices\\IQvsAService.cs",
-              "ToolTip": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\Services\\QvsAServices\\IQvsAService.cs",
-              "RelativeToolTip": "LMS _Elibrary_BE\\Services\\QvsAServices\\IQvsAService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T08:54:33.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T06:25:39.849Z"
             }
           ]
         },

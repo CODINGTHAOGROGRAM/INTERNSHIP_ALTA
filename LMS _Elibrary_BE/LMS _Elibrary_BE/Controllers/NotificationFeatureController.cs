@@ -1,5 +1,6 @@
 ﻿using LMS__Elibrary_BE.Services.NotificationFeaturesServices;
 using LMS_Library_API.Models.Notification;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Formats.Asn1;
 
@@ -7,6 +8,8 @@ namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class NotificationFeatureController : Controller
     {
         private readonly INotificationFeaturesService _notificationFeaturesService;

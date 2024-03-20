@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\wwwroot\\UpLoad\\Documents\\ss.docx",
+      "PackagePath": "staticwebassets\\UpLoad\\Documents\\ss.docx"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LMS _Elibrary_BE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.LMS _Elibrary_BE.props",
+      "PackagePath": "build\\LMS _Elibrary_BE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.LMS _Elibrary_BE.props",
+      "PackagePath": "buildMultiTargeting\\LMS _Elibrary_BE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.LMS _Elibrary_BE.props",
+      "PackagePath": "buildTransitive\\LMS _Elibrary_BE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

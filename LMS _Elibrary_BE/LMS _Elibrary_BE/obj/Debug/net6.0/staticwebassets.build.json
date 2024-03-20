@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "/a3GC+6TEDwu88ZO/9ZbqovnWDgKMBfWj6cV5wA/bDw=",
+  "Hash": "7F8SV8OM0o/EXvfdUkevaZiPz5Ykd7mb6zUhbHSyg9Q=",
   "Source": "LMS _Elibrary_BE",
   "BasePath": "_content/LMS _Elibrary_BE",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LMS _Elibrary_BE\\wwwroot",
+      "Source": "LMS _Elibrary_BE",
+      "ContentRoot": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\wwwroot\\",
+      "BasePath": "_content/LMS _Elibrary_BE",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\wwwroot\\UpLoad\\Documents\\ss.docx",
+      "SourceId": "LMS _Elibrary_BE",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\INTERNSHIP_ALTA\\LMS _Elibrary_BE\\LMS _Elibrary_BE\\wwwroot\\",
+      "BasePath": "_content/LMS _Elibrary_BE",
+      "RelativePath": "UpLoad/Documents/ss.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UpLoad\\Documents\\ss.docx"
+    }
+  ]
 }

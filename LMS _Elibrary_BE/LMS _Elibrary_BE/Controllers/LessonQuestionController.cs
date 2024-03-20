@@ -2,12 +2,14 @@
 using LMS__Elibrary_BE.ModelsDTO;
 using LMS__Elibrary_BE.Services.LessonQuestionServices;
 using LMS_Library_API.Models.AboutSubject;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS__Elibrary_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LessonQuestionController : Controller
     {
         private readonly ILessonQuestionService _lessonQuestionService;
